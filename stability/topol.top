@@ -1,0 +1,51 @@
+;
+;	File 'topol.top' was generated
+;	By user: kierannp (1042)
+;	On host: head.cl.vanderbilt.edu
+;	At date: Mon Apr 10 16:01:09 2023
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                     :-) GROMACS - gmx pdb2gmx, 2022 (-:
+;	
+;	Executable:   /raid6/software/gromacs-2022/bin/gmx
+;	Data prefix:  /raid6/software/gromacs-2022
+;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/stability
+;	Command line:
+;	  gmx pdb2gmx -f protein_des.pdb -o protein_des.gro
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./charmm36-jul2022.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Other.itp"
+#include "topol_Other_chain_C.itp"
+#include "topol_Other2.itp"
+
+; Include water topology
+#include "./charmm36-jul2022.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./charmm36-jul2022.ff/ions.itp"
+
+[ system ]
+; Name
+GROwing Monsters And Cloning Shrimps
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Other               1
+Other_chain_C       1
+Other2              1

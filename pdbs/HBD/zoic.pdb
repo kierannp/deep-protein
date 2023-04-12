@@ -1,0 +1,18 @@
+REMARK   DATE:     2/ 5/21     14:57:39      CREATED BY USER: nathan                  
+ATOM      1  C2  ZOI Z   1       0.251  -1.260  -0.000  1.00  0.00      ZOIC
+ATOM      2  H2  ZOI Z   1      -0.161  -2.258  -0.000  1.00  0.00      ZOIC
+ATOM      3  C3  ZOI Z   1       1.643  -1.103  -0.000  1.00  0.00      ZOIC
+ATOM      4  H3  ZOI Z   1       2.283  -1.972  -0.000  1.00  0.00      ZOIC
+ATOM      5  C4  ZOI Z   1       2.203   0.179  -0.000  1.00  0.00      ZOIC
+ATOM      6  H4  ZOI Z   1       3.277   0.299  -0.000  1.00  0.00      ZOIC
+ATOM      7  C5  ZOI Z   1       1.372   1.305   0.000  1.00  0.00      ZOIC
+ATOM      8  H5  ZOI Z   1       1.804   2.294   0.000  1.00  0.00      ZOIC
+ATOM      9  C6  ZOI Z   1      -0.019   1.149   0.000  1.00  0.00      ZOIC
+ATOM     10  H6  ZOI Z   1      -0.642   2.031   0.000  1.00  0.00      ZOIC
+ATOM     11  C1  ZOI Z   1      -0.601  -0.139   0.000  1.00  0.00      ZOIC
+ATOM     12  C7  ZOI Z   1      -2.083  -0.373   0.000  1.00  0.00      ZOIC
+ATOM     13  O7  ZOI Z   1      -2.587  -1.485   0.000  1.00  0.00      ZOIC
+ATOM     14  O8  ZOI Z   1      -2.899   0.758  -0.000  1.00  0.00      ZOIC
+ATOM     15  H8  ZOI Z   1      -3.842   0.577  -0.000  1.00  0.00      ZOIC
+TER      16      ZOIC     1
+END

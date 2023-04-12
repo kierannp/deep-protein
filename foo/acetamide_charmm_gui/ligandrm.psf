@@ -1,0 +1,55 @@
+PSF EXT CMAP XPLOR
+
+         2 !NTITLE
+* GENERATE LIGAND                                                               
+*  DATE:     4/10/23     17:53:17      CREATED BY USER: apache                  
+
+         9 !NATOM
+         1 LIG      1        LIG      C1       CG331   -0.273000       12.0110           0
+         2 LIG      1        LIG      C2       CG2O1    0.542000       12.0110           0
+         3 LIG      1        LIG      O        OG2D1   -0.532000       15.9994           0
+         4 LIG      1        LIG      N        NG2S2   -0.625000       14.0070           0
+         5 LIG      1        LIG      H1       HGA3     0.900000E-01   1.00800           0
+         6 LIG      1        LIG      H2       HGA3     0.900000E-01   1.00800           0
+         7 LIG      1        LIG      H3       HGA3     0.900000E-01   1.00800           0
+         8 LIG      1        LIG      H4       HGP1     0.309000       1.00800           0
+         9 LIG      1        LIG      H5       HGP1     0.309000       1.00800           0
+
+         8 !NBOND: bonds
+         1         2         2         3         2         4         1         5
+         1         6         1         7         4         8         4         9
+
+        12 !NTHETA: angles
+         2         1         5         2         1         6         2         1         7
+         5         1         6         5         1         7         6         1         7
+         1         2         3         1         2         4         3         2         4
+         2         4         8         2         4         9         8         4         9
+
+        10 !NPHI: dihedrals
+         1         2         4         8         1         2         4         9
+         3         2         1         5         3         2         1         6
+         3         2         1         7         3         2         4         8
+         3         2         4         9         4         2         1         5
+         4         2         1         6         4         2         1         7
+
+         1 !NIMPHI: impropers
+         2         1         4         3
+
+         0 !NDON: donors
+
+
+         0 !NACC: acceptors
+
+
+         0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0
+
+         1         0 !NGRP NST2
+         0         1         0
+
+         0         0 !NUMLP NUMLPH
+
+         0 !NCRTERM: cross-terms
+

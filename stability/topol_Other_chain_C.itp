@@ -1,0 +1,1031 @@
+;
+;	File 'topol_Other_chain_C.itp' was generated
+;	By user: kierannp (1042)
+;	On host: head.cl.vanderbilt.edu
+;	At date: Mon Apr 10 16:01:18 2023
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                     :-) GROMACS - gmx pdb2gmx, 2022 (-:
+;	
+;	Executable:   /raid6/software/gromacs-2022/bin/gmx
+;	Data prefix:  /raid6/software/gromacs-2022
+;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/stability
+;	Command line:
+;	  gmx pdb2gmx -f protein_des.pdb -o protein_des.gro
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Other_chain_C       3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 825 CLA rtp CLA  q -1.0
+     1        CLA    825    CLA    CLA      1         -1      35.45   ; qtot -1
+; residue 826 CLA rtp CLA  q -1.0
+     2        CLA    826    CLA    CLA      2         -1      35.45   ; qtot -2
+; residue 827 CLA rtp CLA  q -1.0
+     3        CLA    827    CLA    CLA      3         -1      35.45   ; qtot -3
+; residue 828 CLA rtp CLA  q -1.0
+     4        CLA    828    CLA    CLA      4         -1      35.45   ; qtot -4
+; residue 829 CLA rtp CLA  q -1.0
+     5        CLA    829    CLA    CLA      5         -1      35.45   ; qtot -5
+; residue 830 CLA rtp CLA  q -1.0
+     6        CLA    830    CLA    CLA      6         -1      35.45   ; qtot -6
+; residue 831 CLA rtp CLA  q -1.0
+     7        CLA    831    CLA    CLA      7         -1      35.45   ; qtot -7
+; residue 832 CLA rtp CLA  q -1.0
+     8        CLA    832    CLA    CLA      8         -1      35.45   ; qtot -8
+; residue 833 CLA rtp CLA  q -1.0
+     9        CLA    833    CLA    CLA      9         -1      35.45   ; qtot -9
+; residue 834 CLA rtp CLA  q -1.0
+    10        CLA    834    CLA    CLA     10         -1      35.45   ; qtot -10
+; residue 835 CLA rtp CLA  q -1.0
+    11        CLA    835    CLA    CLA     11         -1      35.45   ; qtot -11
+; residue 836 CLA rtp CLA  q -1.0
+    12        CLA    836    CLA    CLA     12         -1      35.45   ; qtot -12
+; residue 837 CLA rtp CLA  q -1.0
+    13        CLA    837    CLA    CLA     13         -1      35.45   ; qtot -13
+; residue 838 CLA rtp CLA  q -1.0
+    14        CLA    838    CLA    CLA     14         -1      35.45   ; qtot -14
+; residue 839 CLA rtp CLA  q -1.0
+    15        CLA    839    CLA    CLA     15         -1      35.45   ; qtot -15
+; residue 840 CLA rtp CLA  q -1.0
+    16        CLA    840    CLA    CLA     16         -1      35.45   ; qtot -16
+; residue 841 CLA rtp CLA  q -1.0
+    17        CLA    841    CLA    CLA     17         -1      35.45   ; qtot -17
+; residue 842 CLA rtp CLA  q -1.0
+    18        CLA    842    CLA    CLA     18         -1      35.45   ; qtot -18
+; residue 843 CLA rtp CLA  q -1.0
+    19        CLA    843    CLA    CLA     19         -1      35.45   ; qtot -19
+; residue 844 CLA rtp CLA  q -1.0
+    20        CLA    844    CLA    CLA     20         -1      35.45   ; qtot -20
+; residue 845 CLA rtp CLA  q -1.0
+    21        CLA    845    CLA    CLA     21         -1      35.45   ; qtot -21
+; residue 846 CLA rtp CLA  q -1.0
+    22        CLA    846    CLA    CLA     22         -1      35.45   ; qtot -22
+; residue 847 CLA rtp CLA  q -1.0
+    23        CLA    847    CLA    CLA     23         -1      35.45   ; qtot -23
+; residue 848 CLA rtp CLA  q -1.0
+    24        CLA    848    CLA    CLA     24         -1      35.45   ; qtot -24
+; residue 849 CLA rtp CLA  q -1.0
+    25        CLA    849    CLA    CLA     25         -1      35.45   ; qtot -25
+; residue 850 CLA rtp CLA  q -1.0
+    26        CLA    850    CLA    CLA     26         -1      35.45   ; qtot -26
+; residue 851 CLA rtp CLA  q -1.0
+    27        CLA    851    CLA    CLA     27         -1      35.45   ; qtot -27
+; residue 852 CLA rtp CLA  q -1.0
+    28        CLA    852    CLA    CLA     28         -1      35.45   ; qtot -28
+; residue 853 CLA rtp CLA  q -1.0
+    29        CLA    853    CLA    CLA     29         -1      35.45   ; qtot -29
+; residue 854 CLA rtp CLA  q -1.0
+    30        CLA    854    CLA    CLA     30         -1      35.45   ; qtot -30
+; residue 855 CLA rtp CLA  q -1.0
+    31        CLA    855    CLA    CLA     31         -1      35.45   ; qtot -31
+; residue 856 CLA rtp CLA  q -1.0
+    32        CLA    856    CLA    CLA     32         -1      35.45   ; qtot -32
+; residue 857 CLA rtp CLA  q -1.0
+    33        CLA    857    CLA    CLA     33         -1      35.45   ; qtot -33
+; residue 858 CLA rtp CLA  q -1.0
+    34        CLA    858    CLA    CLA     34         -1      35.45   ; qtot -34
+; residue 859 CLA rtp CLA  q -1.0
+    35        CLA    859    CLA    CLA     35         -1      35.45   ; qtot -35
+; residue 860 CLA rtp CLA  q -1.0
+    36        CLA    860    CLA    CLA     36         -1      35.45   ; qtot -36
+; residue 861 CLA rtp CLA  q -1.0
+    37        CLA    861    CLA    CLA     37         -1      35.45   ; qtot -37
+; residue 862 CLA rtp CLA  q -1.0
+    38        CLA    862    CLA    CLA     38         -1      35.45   ; qtot -38
+; residue 863 CLA rtp CLA  q -1.0
+    39        CLA    863    CLA    CLA     39         -1      35.45   ; qtot -39
+; residue 864 CLA rtp CLA  q -1.0
+    40        CLA    864    CLA    CLA     40         -1      35.45   ; qtot -40
+; residue 865 CLA rtp CLA  q -1.0
+    41        CLA    865    CLA    CLA     41         -1      35.45   ; qtot -41
+; residue 866 CLA rtp CLA  q -1.0
+    42        CLA    866    CLA    CLA     42         -1      35.45   ; qtot -42
+; residue 867 CLA rtp CLA  q -1.0
+    43        CLA    867    CLA    CLA     43         -1      35.45   ; qtot -43
+; residue 868 CLA rtp CLA  q -1.0
+    44        CLA    868    CLA    CLA     44         -1      35.45   ; qtot -44
+; residue 869 CLA rtp CLA  q -1.0
+    45        CLA    869    CLA    CLA     45         -1      35.45   ; qtot -45
+; residue 870 CLA rtp CLA  q -1.0
+    46        CLA    870    CLA    CLA     46         -1      35.45   ; qtot -46
+; residue 871 CLA rtp CLA  q -1.0
+    47        CLA    871    CLA    CLA     47         -1      35.45   ; qtot -47
+; residue 872 CLA rtp CLA  q -1.0
+    48        CLA    872    CLA    CLA     48         -1      35.45   ; qtot -48
+; residue 873 CLA rtp CLA  q -1.0
+    49        CLA    873    CLA    CLA     49         -1      35.45   ; qtot -49
+; residue 874 CLA rtp CLA  q -1.0
+    50        CLA    874    CLA    CLA     50         -1      35.45   ; qtot -50
+; residue 875 CLA rtp CLA  q -1.0
+    51        CLA    875    CLA    CLA     51         -1      35.45   ; qtot -51
+; residue 876 CLA rtp CLA  q -1.0
+    52        CLA    876    CLA    CLA     52         -1      35.45   ; qtot -52
+; residue 877 CLA rtp CLA  q -1.0
+    53        CLA    877    CLA    CLA     53         -1      35.45   ; qtot -53
+; residue 878 CLA rtp CLA  q -1.0
+    54        CLA    878    CLA    CLA     54         -1      35.45   ; qtot -54
+; residue 879 CLA rtp CLA  q -1.0
+    55        CLA    879    CLA    CLA     55         -1      35.45   ; qtot -55
+; residue 880 CLA rtp CLA  q -1.0
+    56        CLA    880    CLA    CLA     56         -1      35.45   ; qtot -56
+; residue 881 CLA rtp CLA  q -1.0
+    57        CLA    881    CLA    CLA     57         -1      35.45   ; qtot -57
+; residue 882 CLA rtp CLA  q -1.0
+    58        CLA    882    CLA    CLA     58         -1      35.45   ; qtot -58
+; residue 883 CLA rtp CLA  q -1.0
+    59        CLA    883    CLA    CLA     59         -1      35.45   ; qtot -59
+; residue 884 CLA rtp CLA  q -1.0
+    60        CLA    884    CLA    CLA     60         -1      35.45   ; qtot -60
+; residue 885 CLA rtp CLA  q -1.0
+    61        CLA    885    CLA    CLA     61         -1      35.45   ; qtot -61
+; residue 886 CLA rtp CLA  q -1.0
+    62        CLA    886    CLA    CLA     62         -1      35.45   ; qtot -62
+; residue 887 CLA rtp CLA  q -1.0
+    63        CLA    887    CLA    CLA     63         -1      35.45   ; qtot -63
+; residue 888 CLA rtp CLA  q -1.0
+    64        CLA    888    CLA    CLA     64         -1      35.45   ; qtot -64
+; residue 889 CLA rtp CLA  q -1.0
+    65        CLA    889    CLA    CLA     65         -1      35.45   ; qtot -65
+; residue 890 CLA rtp CLA  q -1.0
+    66        CLA    890    CLA    CLA     66         -1      35.45   ; qtot -66
+; residue 891 CLA rtp CLA  q -1.0
+    67        CLA    891    CLA    CLA     67         -1      35.45   ; qtot -67
+; residue 892 CLA rtp CLA  q -1.0
+    68        CLA    892    CLA    CLA     68         -1      35.45   ; qtot -68
+; residue 893 CLA rtp CLA  q -1.0
+    69        CLA    893    CLA    CLA     69         -1      35.45   ; qtot -69
+; residue 894 CLA rtp CLA  q -1.0
+    70        CLA    894    CLA    CLA     70         -1      35.45   ; qtot -70
+; residue 895 CLA rtp CLA  q -1.0
+    71        CLA    895    CLA    CLA     71         -1      35.45   ; qtot -71
+; residue 896 CLA rtp CLA  q -1.0
+    72        CLA    896    CLA    CLA     72         -1      35.45   ; qtot -72
+; residue 897 CLA rtp CLA  q -1.0
+    73        CLA    897    CLA    CLA     73         -1      35.45   ; qtot -73
+; residue 898 CLA rtp CLA  q -1.0
+    74        CLA    898    CLA    CLA     74         -1      35.45   ; qtot -74
+; residue 899 CLA rtp CLA  q -1.0
+    75        CLA    899    CLA    CLA     75         -1      35.45   ; qtot -75
+; residue 900 CLA rtp CLA  q -1.0
+    76        CLA    900    CLA    CLA     76         -1      35.45   ; qtot -76
+; residue 901 CLA rtp CLA  q -1.0
+    77        CLA    901    CLA    CLA     77         -1      35.45   ; qtot -77
+; residue 902 CLA rtp CLA  q -1.0
+    78        CLA    902    CLA    CLA     78         -1      35.45   ; qtot -78
+; residue 903 CLA rtp CLA  q -1.0
+    79        CLA    903    CLA    CLA     79         -1      35.45   ; qtot -79
+; residue 904 CLA rtp CLA  q -1.0
+    80        CLA    904    CLA    CLA     80         -1      35.45   ; qtot -80
+; residue 905 CLA rtp CLA  q -1.0
+    81        CLA    905    CLA    CLA     81         -1      35.45   ; qtot -81
+; residue 906 CLA rtp CLA  q -1.0
+    82        CLA    906    CLA    CLA     82         -1      35.45   ; qtot -82
+; residue 907 CLA rtp CLA  q -1.0
+    83        CLA    907    CLA    CLA     83         -1      35.45   ; qtot -83
+; residue 908 CLA rtp CLA  q -1.0
+    84        CLA    908    CLA    CLA     84         -1      35.45   ; qtot -84
+; residue 909 CLA rtp CLA  q -1.0
+    85        CLA    909    CLA    CLA     85         -1      35.45   ; qtot -85
+; residue 910 CLA rtp CLA  q -1.0
+    86        CLA    910    CLA    CLA     86         -1      35.45   ; qtot -86
+; residue 911 CLA rtp CLA  q -1.0
+    87        CLA    911    CLA    CLA     87         -1      35.45   ; qtot -87
+; residue 912 CLA rtp CLA  q -1.0
+    88        CLA    912    CLA    CLA     88         -1      35.45   ; qtot -88
+; residue 913 CLA rtp CLA  q -1.0
+    89        CLA    913    CLA    CLA     89         -1      35.45   ; qtot -89
+; residue 914 CLA rtp CLA  q -1.0
+    90        CLA    914    CLA    CLA     90         -1      35.45   ; qtot -90
+; residue 915 CLA rtp CLA  q -1.0
+    91        CLA    915    CLA    CLA     91         -1      35.45   ; qtot -91
+; residue 916 CLA rtp CLA  q -1.0
+    92        CLA    916    CLA    CLA     92         -1      35.45   ; qtot -92
+; residue 917 CLA rtp CLA  q -1.0
+    93        CLA    917    CLA    CLA     93         -1      35.45   ; qtot -93
+; residue 918 CLA rtp CLA  q -1.0
+    94        CLA    918    CLA    CLA     94         -1      35.45   ; qtot -94
+; residue 919 CLA rtp CLA  q -1.0
+    95        CLA    919    CLA    CLA     95         -1      35.45   ; qtot -95
+; residue 920 CLA rtp CLA  q -1.0
+    96        CLA    920    CLA    CLA     96         -1      35.45   ; qtot -96
+; residue 921 CLA rtp CLA  q -1.0
+    97        CLA    921    CLA    CLA     97         -1      35.45   ; qtot -97
+; residue 922 CLA rtp CLA  q -1.0
+    98        CLA    922    CLA    CLA     98         -1      35.45   ; qtot -98
+; residue 923 CLA rtp CLA  q -1.0
+    99        CLA    923    CLA    CLA     99         -1      35.45   ; qtot -99
+; residue 924 CLA rtp CLA  q -1.0
+   100        CLA    924    CLA    CLA    100         -1      35.45   ; qtot -100
+; residue 925 CLA rtp CLA  q -1.0
+   101        CLA    925    CLA    CLA    101         -1      35.45   ; qtot -101
+; residue 926 CLA rtp CLA  q -1.0
+   102        CLA    926    CLA    CLA    102         -1      35.45   ; qtot -102
+; residue 927 CLA rtp CLA  q -1.0
+   103        CLA    927    CLA    CLA    103         -1      35.45   ; qtot -103
+; residue 928 CLA rtp CLA  q -1.0
+   104        CLA    928    CLA    CLA    104         -1      35.45   ; qtot -104
+; residue 929 CLA rtp CLA  q -1.0
+   105        CLA    929    CLA    CLA    105         -1      35.45   ; qtot -105
+; residue 930 CLA rtp CLA  q -1.0
+   106        CLA    930    CLA    CLA    106         -1      35.45   ; qtot -106
+; residue 931 CLA rtp CLA  q -1.0
+   107        CLA    931    CLA    CLA    107         -1      35.45   ; qtot -107
+; residue 932 CLA rtp CLA  q -1.0
+   108        CLA    932    CLA    CLA    108         -1      35.45   ; qtot -108
+; residue 933 CLA rtp CLA  q -1.0
+   109        CLA    933    CLA    CLA    109         -1      35.45   ; qtot -109
+; residue 934 CLA rtp CLA  q -1.0
+   110        CLA    934    CLA    CLA    110         -1      35.45   ; qtot -110
+; residue 935 CLA rtp CLA  q -1.0
+   111        CLA    935    CLA    CLA    111         -1      35.45   ; qtot -111
+; residue 936 CLA rtp CLA  q -1.0
+   112        CLA    936    CLA    CLA    112         -1      35.45   ; qtot -112
+; residue 937 CLA rtp CLA  q -1.0
+   113        CLA    937    CLA    CLA    113         -1      35.45   ; qtot -113
+; residue 938 CLA rtp CLA  q -1.0
+   114        CLA    938    CLA    CLA    114         -1      35.45   ; qtot -114
+; residue 939 CLA rtp CLA  q -1.0
+   115        CLA    939    CLA    CLA    115         -1      35.45   ; qtot -115
+; residue 940 CLA rtp CLA  q -1.0
+   116        CLA    940    CLA    CLA    116         -1      35.45   ; qtot -116
+; residue 941 CLA rtp CLA  q -1.0
+   117        CLA    941    CLA    CLA    117         -1      35.45   ; qtot -117
+; residue 942 CLA rtp CLA  q -1.0
+   118        CLA    942    CLA    CLA    118         -1      35.45   ; qtot -118
+; residue 943 CLA rtp CLA  q -1.0
+   119        CLA    943    CLA    CLA    119         -1      35.45   ; qtot -119
+; residue 944 CLA rtp CLA  q -1.0
+   120        CLA    944    CLA    CLA    120         -1      35.45   ; qtot -120
+; residue 945 CLA rtp CLA  q -1.0
+   121        CLA    945    CLA    CLA    121         -1      35.45   ; qtot -121
+; residue 946 CLA rtp CLA  q -1.0
+   122        CLA    946    CLA    CLA    122         -1      35.45   ; qtot -122
+; residue 947 CLA rtp CLA  q -1.0
+   123        CLA    947    CLA    CLA    123         -1      35.45   ; qtot -123
+; residue 948 CLA rtp CLA  q -1.0
+   124        CLA    948    CLA    CLA    124         -1      35.45   ; qtot -124
+; residue 949 CLA rtp CLA  q -1.0
+   125        CLA    949    CLA    CLA    125         -1      35.45   ; qtot -125
+; residue 950 CLA rtp CLA  q -1.0
+   126        CLA    950    CLA    CLA    126         -1      35.45   ; qtot -126
+; residue 951 CLA rtp CLA  q -1.0
+   127        CLA    951    CLA    CLA    127         -1      35.45   ; qtot -127
+; residue 952 CLA rtp CLA  q -1.0
+   128        CLA    952    CLA    CLA    128         -1      35.45   ; qtot -128
+; residue 953 CLA rtp CLA  q -1.0
+   129        CLA    953    CLA    CLA    129         -1      35.45   ; qtot -129
+; residue 954 CLA rtp CLA  q -1.0
+   130        CLA    954    CLA    CLA    130         -1      35.45   ; qtot -130
+; residue 955 CLA rtp CLA  q -1.0
+   131        CLA    955    CLA    CLA    131         -1      35.45   ; qtot -131
+; residue 956 CLA rtp CLA  q -1.0
+   132        CLA    956    CLA    CLA    132         -1      35.45   ; qtot -132
+; residue 957 CLA rtp CLA  q -1.0
+   133        CLA    957    CLA    CLA    133         -1      35.45   ; qtot -133
+; residue 958 CLA rtp CLA  q -1.0
+   134        CLA    958    CLA    CLA    134         -1      35.45   ; qtot -134
+; residue 959 CLA rtp CLA  q -1.0
+   135        CLA    959    CLA    CLA    135         -1      35.45   ; qtot -135
+; residue 960 CLA rtp CLA  q -1.0
+   136        CLA    960    CLA    CLA    136         -1      35.45   ; qtot -136
+; residue 961 CLA rtp CLA  q -1.0
+   137        CLA    961    CLA    CLA    137         -1      35.45   ; qtot -137
+; residue 962 CLA rtp CLA  q -1.0
+   138        CLA    962    CLA    CLA    138         -1      35.45   ; qtot -138
+; residue 963 CLA rtp CLA  q -1.0
+   139        CLA    963    CLA    CLA    139         -1      35.45   ; qtot -139
+; residue 964 CLA rtp CLA  q -1.0
+   140        CLA    964    CLA    CLA    140         -1      35.45   ; qtot -140
+; residue 965 CLA rtp CLA  q -1.0
+   141        CLA    965    CLA    CLA    141         -1      35.45   ; qtot -141
+; residue 966 CLA rtp CLA  q -1.0
+   142        CLA    966    CLA    CLA    142         -1      35.45   ; qtot -142
+; residue 967 CLA rtp CLA  q -1.0
+   143        CLA    967    CLA    CLA    143         -1      35.45   ; qtot -143
+; residue 968 CLA rtp CLA  q -1.0
+   144        CLA    968    CLA    CLA    144         -1      35.45   ; qtot -144
+; residue 969 CLA rtp CLA  q -1.0
+   145        CLA    969    CLA    CLA    145         -1      35.45   ; qtot -145
+; residue 970 CLA rtp CLA  q -1.0
+   146        CLA    970    CLA    CLA    146         -1      35.45   ; qtot -146
+; residue 971 CLA rtp CLA  q -1.0
+   147        CLA    971    CLA    CLA    147         -1      35.45   ; qtot -147
+; residue 972 CLA rtp CLA  q -1.0
+   148        CLA    972    CLA    CLA    148         -1      35.45   ; qtot -148
+; residue 973 CLA rtp CLA  q -1.0
+   149        CLA    973    CLA    CLA    149         -1      35.45   ; qtot -149
+; residue 974 CLA rtp CLA  q -1.0
+   150        CLA    974    CLA    CLA    150         -1      35.45   ; qtot -150
+; residue 975 CLA rtp CLA  q -1.0
+   151        CLA    975    CLA    CLA    151         -1      35.45   ; qtot -151
+; residue 976 CLA rtp CLA  q -1.0
+   152        CLA    976    CLA    CLA    152         -1      35.45   ; qtot -152
+; residue 977 CLA rtp CLA  q -1.0
+   153        CLA    977    CLA    CLA    153         -1      35.45   ; qtot -153
+; residue 978 CLA rtp CLA  q -1.0
+   154        CLA    978    CLA    CLA    154         -1      35.45   ; qtot -154
+; residue 979 CLA rtp CLA  q -1.0
+   155        CLA    979    CLA    CLA    155         -1      35.45   ; qtot -155
+; residue 980 CLA rtp CLA  q -1.0
+   156        CLA    980    CLA    CLA    156         -1      35.45   ; qtot -156
+; residue 981 CLA rtp CLA  q -1.0
+   157        CLA    981    CLA    CLA    157         -1      35.45   ; qtot -157
+; residue 982 CLA rtp CLA  q -1.0
+   158        CLA    982    CLA    CLA    158         -1      35.45   ; qtot -158
+; residue 983 CLA rtp CLA  q -1.0
+   159        CLA    983    CLA    CLA    159         -1      35.45   ; qtot -159
+; residue 984 CLA rtp CLA  q -1.0
+   160        CLA    984    CLA    CLA    160         -1      35.45   ; qtot -160
+; residue 985 CLA rtp CLA  q -1.0
+   161        CLA    985    CLA    CLA    161         -1      35.45   ; qtot -161
+; residue 986 CLA rtp CLA  q -1.0
+   162        CLA    986    CLA    CLA    162         -1      35.45   ; qtot -162
+; residue 987 CLA rtp CLA  q -1.0
+   163        CLA    987    CLA    CLA    163         -1      35.45   ; qtot -163
+; residue 988 CLA rtp CLA  q -1.0
+   164        CLA    988    CLA    CLA    164         -1      35.45   ; qtot -164
+; residue 989 CLA rtp CLA  q -1.0
+   165        CLA    989    CLA    CLA    165         -1      35.45   ; qtot -165
+; residue 990 CLA rtp CLA  q -1.0
+   166        CLA    990    CLA    CLA    166         -1      35.45   ; qtot -166
+; residue 991 CLA rtp CLA  q -1.0
+   167        CLA    991    CLA    CLA    167         -1      35.45   ; qtot -167
+; residue 992 CLA rtp CLA  q -1.0
+   168        CLA    992    CLA    CLA    168         -1      35.45   ; qtot -168
+; residue 993 CLA rtp CLA  q -1.0
+   169        CLA    993    CLA    CLA    169         -1      35.45   ; qtot -169
+; residue 994 CLA rtp CLA  q -1.0
+   170        CLA    994    CLA    CLA    170         -1      35.45   ; qtot -170
+; residue 995 CLA rtp CLA  q -1.0
+   171        CLA    995    CLA    CLA    171         -1      35.45   ; qtot -171
+; residue 996 CLA rtp CLA  q -1.0
+   172        CLA    996    CLA    CLA    172         -1      35.45   ; qtot -172
+; residue 997 CLA rtp CLA  q -1.0
+   173        CLA    997    CLA    CLA    173         -1      35.45   ; qtot -173
+; residue 998 CLA rtp CLA  q -1.0
+   174        CLA    998    CLA    CLA    174         -1      35.45   ; qtot -174
+; residue 999 CLA rtp CLA  q -1.0
+   175        CLA    999    CLA    CLA    175         -1      35.45   ; qtot -175
+; residue 1000 CLA rtp CLA  q -1.0
+   176        CLA   1000    CLA    CLA    176         -1      35.45   ; qtot -176
+; residue 1001 CLA rtp CLA  q -1.0
+   177        CLA   1001    CLA    CLA    177         -1      35.45   ; qtot -177
+; residue 1002 CLA rtp CLA  q -1.0
+   178        CLA   1002    CLA    CLA    178         -1      35.45   ; qtot -178
+; residue 1003 CLA rtp CLA  q -1.0
+   179        CLA   1003    CLA    CLA    179         -1      35.45   ; qtot -179
+; residue 1004 CLA rtp CLA  q -1.0
+   180        CLA   1004    CLA    CLA    180         -1      35.45   ; qtot -180
+; residue 1005 CLA rtp CLA  q -1.0
+   181        CLA   1005    CLA    CLA    181         -1      35.45   ; qtot -181
+; residue 1006 CLA rtp CLA  q -1.0
+   182        CLA   1006    CLA    CLA    182         -1      35.45   ; qtot -182
+; residue 1007 CLA rtp CLA  q -1.0
+   183        CLA   1007    CLA    CLA    183         -1      35.45   ; qtot -183
+; residue 1008 CLA rtp CLA  q -1.0
+   184        CLA   1008    CLA    CLA    184         -1      35.45   ; qtot -184
+; residue 1009 CLA rtp CLA  q -1.0
+   185        CLA   1009    CLA    CLA    185         -1      35.45   ; qtot -185
+; residue 1010 CLA rtp CLA  q -1.0
+   186        CLA   1010    CLA    CLA    186         -1      35.45   ; qtot -186
+; residue 1011 CLA rtp CLA  q -1.0
+   187        CLA   1011    CLA    CLA    187         -1      35.45   ; qtot -187
+; residue 1012 CLA rtp CLA  q -1.0
+   188        CLA   1012    CLA    CLA    188         -1      35.45   ; qtot -188
+; residue 1013 CLA rtp CLA  q -1.0
+   189        CLA   1013    CLA    CLA    189         -1      35.45   ; qtot -189
+; residue 1014 CLA rtp CLA  q -1.0
+   190        CLA   1014    CLA    CLA    190         -1      35.45   ; qtot -190
+; residue 1015 CLA rtp CLA  q -1.0
+   191        CLA   1015    CLA    CLA    191         -1      35.45   ; qtot -191
+; residue 1016 CLA rtp CLA  q -1.0
+   192        CLA   1016    CLA    CLA    192         -1      35.45   ; qtot -192
+; residue 1017 CLA rtp CLA  q -1.0
+   193        CLA   1017    CLA    CLA    193         -1      35.45   ; qtot -193
+; residue 1018 CLA rtp CLA  q -1.0
+   194        CLA   1018    CLA    CLA    194         -1      35.45   ; qtot -194
+; residue 1019 CLA rtp CLA  q -1.0
+   195        CLA   1019    CLA    CLA    195         -1      35.45   ; qtot -195
+; residue 1020 CLA rtp CLA  q -1.0
+   196        CLA   1020    CLA    CLA    196         -1      35.45   ; qtot -196
+; residue 1021 CLA rtp CLA  q -1.0
+   197        CLA   1021    CLA    CLA    197         -1      35.45   ; qtot -197
+; residue 1022 CLA rtp CLA  q -1.0
+   198        CLA   1022    CLA    CLA    198         -1      35.45   ; qtot -198
+; residue 1023 CLA rtp CLA  q -1.0
+   199        CLA   1023    CLA    CLA    199         -1      35.45   ; qtot -199
+; residue 1024 CLA rtp CLA  q -1.0
+   200        CLA   1024    CLA    CLA    200         -1      35.45   ; qtot -200
+; residue 1025 CLA rtp CLA  q -1.0
+   201        CLA   1025    CLA    CLA    201         -1      35.45   ; qtot -201
+; residue 1026 CLA rtp CLA  q -1.0
+   202        CLA   1026    CLA    CLA    202         -1      35.45   ; qtot -202
+; residue 1027 CLA rtp CLA  q -1.0
+   203        CLA   1027    CLA    CLA    203         -1      35.45   ; qtot -203
+; residue 1028 CLA rtp CLA  q -1.0
+   204        CLA   1028    CLA    CLA    204         -1      35.45   ; qtot -204
+; residue 1029 CLA rtp CLA  q -1.0
+   205        CLA   1029    CLA    CLA    205         -1      35.45   ; qtot -205
+; residue 1030 CLA rtp CLA  q -1.0
+   206        CLA   1030    CLA    CLA    206         -1      35.45   ; qtot -206
+; residue 1031 CLA rtp CLA  q -1.0
+   207        CLA   1031    CLA    CLA    207         -1      35.45   ; qtot -207
+; residue 1032 CLA rtp CLA  q -1.0
+   208        CLA   1032    CLA    CLA    208         -1      35.45   ; qtot -208
+; residue 1033 CLA rtp CLA  q -1.0
+   209        CLA   1033    CLA    CLA    209         -1      35.45   ; qtot -209
+; residue 1034 CLA rtp CLA  q -1.0
+   210        CLA   1034    CLA    CLA    210         -1      35.45   ; qtot -210
+; residue 1035 CLA rtp CLA  q -1.0
+   211        CLA   1035    CLA    CLA    211         -1      35.45   ; qtot -211
+; residue 1036 CLA rtp CLA  q -1.0
+   212        CLA   1036    CLA    CLA    212         -1      35.45   ; qtot -212
+; residue 1037 CLA rtp CLA  q -1.0
+   213        CLA   1037    CLA    CLA    213         -1      35.45   ; qtot -213
+; residue 1038 CLA rtp CLA  q -1.0
+   214        CLA   1038    CLA    CLA    214         -1      35.45   ; qtot -214
+; residue 1039 CLA rtp CLA  q -1.0
+   215        CLA   1039    CLA    CLA    215         -1      35.45   ; qtot -215
+; residue 1040 CLA rtp CLA  q -1.0
+   216        CLA   1040    CLA    CLA    216         -1      35.45   ; qtot -216
+; residue 1041 CLA rtp CLA  q -1.0
+   217        CLA   1041    CLA    CLA    217         -1      35.45   ; qtot -217
+; residue 1042 CLA rtp CLA  q -1.0
+   218        CLA   1042    CLA    CLA    218         -1      35.45   ; qtot -218
+; residue 1043 CLA rtp CLA  q -1.0
+   219        CLA   1043    CLA    CLA    219         -1      35.45   ; qtot -219
+; residue 1044 CLA rtp CLA  q -1.0
+   220        CLA   1044    CLA    CLA    220         -1      35.45   ; qtot -220
+; residue 1045 CLA rtp CLA  q -1.0
+   221        CLA   1045    CLA    CLA    221         -1      35.45   ; qtot -221
+; residue 1046 CLA rtp CLA  q -1.0
+   222        CLA   1046    CLA    CLA    222         -1      35.45   ; qtot -222
+; residue 1047 CLA rtp CLA  q -1.0
+   223        CLA   1047    CLA    CLA    223         -1      35.45   ; qtot -223
+; residue 1048 CLA rtp CLA  q -1.0
+   224        CLA   1048    CLA    CLA    224         -1      35.45   ; qtot -224
+; residue 1049 CLA rtp CLA  q -1.0
+   225        CLA   1049    CLA    CLA    225         -1      35.45   ; qtot -225
+; residue 1050 CLA rtp CLA  q -1.0
+   226        CLA   1050    CLA    CLA    226         -1      35.45   ; qtot -226
+; residue 1051 CLA rtp CLA  q -1.0
+   227        CLA   1051    CLA    CLA    227         -1      35.45   ; qtot -227
+; residue 1052 CLA rtp CLA  q -1.0
+   228        CLA   1052    CLA    CLA    228         -1      35.45   ; qtot -228
+; residue 1053 CLA rtp CLA  q -1.0
+   229        CLA   1053    CLA    CLA    229         -1      35.45   ; qtot -229
+; residue 1054 CLA rtp CLA  q -1.0
+   230        CLA   1054    CLA    CLA    230         -1      35.45   ; qtot -230
+; residue 1055 CLA rtp CLA  q -1.0
+   231        CLA   1055    CLA    CLA    231         -1      35.45   ; qtot -231
+; residue 1056 CLA rtp CLA  q -1.0
+   232        CLA   1056    CLA    CLA    232         -1      35.45   ; qtot -232
+; residue 1057 CLA rtp CLA  q -1.0
+   233        CLA   1057    CLA    CLA    233         -1      35.45   ; qtot -233
+; residue 1058 CLA rtp CLA  q -1.0
+   234        CLA   1058    CLA    CLA    234         -1      35.45   ; qtot -234
+; residue 1059 CLA rtp CLA  q -1.0
+   235        CLA   1059    CLA    CLA    235         -1      35.45   ; qtot -235
+; residue 1060 CLA rtp CLA  q -1.0
+   236        CLA   1060    CLA    CLA    236         -1      35.45   ; qtot -236
+; residue 1061 CLA rtp CLA  q -1.0
+   237        CLA   1061    CLA    CLA    237         -1      35.45   ; qtot -237
+; residue 1062 CLA rtp CLA  q -1.0
+   238        CLA   1062    CLA    CLA    238         -1      35.45   ; qtot -238
+; residue 1063 CLA rtp CLA  q -1.0
+   239        CLA   1063    CLA    CLA    239         -1      35.45   ; qtot -239
+; residue 1064 CLA rtp CLA  q -1.0
+   240        CLA   1064    CLA    CLA    240         -1      35.45   ; qtot -240
+; residue 1065 CLA rtp CLA  q -1.0
+   241        CLA   1065    CLA    CLA    241         -1      35.45   ; qtot -241
+; residue 1066 CLA rtp CLA  q -1.0
+   242        CLA   1066    CLA    CLA    242         -1      35.45   ; qtot -242
+; residue 1067 CLA rtp CLA  q -1.0
+   243        CLA   1067    CLA    CLA    243         -1      35.45   ; qtot -243
+; residue 1068 CLA rtp CLA  q -1.0
+   244        CLA   1068    CLA    CLA    244         -1      35.45   ; qtot -244
+; residue 1069 CLA rtp CLA  q -1.0
+   245        CLA   1069    CLA    CLA    245         -1      35.45   ; qtot -245
+; residue 1070 CLA rtp CLA  q -1.0
+   246        CLA   1070    CLA    CLA    246         -1      35.45   ; qtot -246
+; residue 1071 CLA rtp CLA  q -1.0
+   247        CLA   1071    CLA    CLA    247         -1      35.45   ; qtot -247
+; residue 1072 CLA rtp CLA  q -1.0
+   248        CLA   1072    CLA    CLA    248         -1      35.45   ; qtot -248
+; residue 1073 CLA rtp CLA  q -1.0
+   249        CLA   1073    CLA    CLA    249         -1      35.45   ; qtot -249
+; residue 1074 CLA rtp CLA  q -1.0
+   250        CLA   1074    CLA    CLA    250         -1      35.45   ; qtot -250
+; residue 1075 CLA rtp CLA  q -1.0
+   251        CLA   1075    CLA    CLA    251         -1      35.45   ; qtot -251
+; residue 1076 CLA rtp CLA  q -1.0
+   252        CLA   1076    CLA    CLA    252         -1      35.45   ; qtot -252
+; residue 1077 CLA rtp CLA  q -1.0
+   253        CLA   1077    CLA    CLA    253         -1      35.45   ; qtot -253
+; residue 1078 CLA rtp CLA  q -1.0
+   254        CLA   1078    CLA    CLA    254         -1      35.45   ; qtot -254
+; residue 1079 CLA rtp CLA  q -1.0
+   255        CLA   1079    CLA    CLA    255         -1      35.45   ; qtot -255
+; residue 1080 CLA rtp CLA  q -1.0
+   256        CLA   1080    CLA    CLA    256         -1      35.45   ; qtot -256
+; residue 1081 CLA rtp CLA  q -1.0
+   257        CLA   1081    CLA    CLA    257         -1      35.45   ; qtot -257
+; residue 1082 CLA rtp CLA  q -1.0
+   258        CLA   1082    CLA    CLA    258         -1      35.45   ; qtot -258
+; residue 1083 CLA rtp CLA  q -1.0
+   259        CLA   1083    CLA    CLA    259         -1      35.45   ; qtot -259
+; residue 1084 CLA rtp CLA  q -1.0
+   260        CLA   1084    CLA    CLA    260         -1      35.45   ; qtot -260
+; residue 1085 CLA rtp CLA  q -1.0
+   261        CLA   1085    CLA    CLA    261         -1      35.45   ; qtot -261
+; residue 1086 CLA rtp CLA  q -1.0
+   262        CLA   1086    CLA    CLA    262         -1      35.45   ; qtot -262
+; residue 1087 CLA rtp CLA  q -1.0
+   263        CLA   1087    CLA    CLA    263         -1      35.45   ; qtot -263
+; residue 1088 CLA rtp CLA  q -1.0
+   264        CLA   1088    CLA    CLA    264         -1      35.45   ; qtot -264
+; residue 1089 CLA rtp CLA  q -1.0
+   265        CLA   1089    CLA    CLA    265         -1      35.45   ; qtot -265
+; residue 1090 CLA rtp CLA  q -1.0
+   266        CLA   1090    CLA    CLA    266         -1      35.45   ; qtot -266
+; residue 1091 CLA rtp CLA  q -1.0
+   267        CLA   1091    CLA    CLA    267         -1      35.45   ; qtot -267
+; residue 1092 CLA rtp CLA  q -1.0
+   268        CLA   1092    CLA    CLA    268         -1      35.45   ; qtot -268
+; residue 1093 CLA rtp CLA  q -1.0
+   269        CLA   1093    CLA    CLA    269         -1      35.45   ; qtot -269
+; residue 1094 CLA rtp CLA  q -1.0
+   270        CLA   1094    CLA    CLA    270         -1      35.45   ; qtot -270
+; residue 1095 CLA rtp CLA  q -1.0
+   271        CLA   1095    CLA    CLA    271         -1      35.45   ; qtot -271
+; residue 1096 CLA rtp CLA  q -1.0
+   272        CLA   1096    CLA    CLA    272         -1      35.45   ; qtot -272
+; residue 1097 CLA rtp CLA  q -1.0
+   273        CLA   1097    CLA    CLA    273         -1      35.45   ; qtot -273
+; residue 1098 CLA rtp CLA  q -1.0
+   274        CLA   1098    CLA    CLA    274         -1      35.45   ; qtot -274
+; residue 1099 CLA rtp CLA  q -1.0
+   275        CLA   1099    CLA    CLA    275         -1      35.45   ; qtot -275
+; residue 1100 CLA rtp CLA  q -1.0
+   276        CLA   1100    CLA    CLA    276         -1      35.45   ; qtot -276
+; residue 1101 CLA rtp CLA  q -1.0
+   277        CLA   1101    CLA    CLA    277         -1      35.45   ; qtot -277
+; residue 1102 CLA rtp CLA  q -1.0
+   278        CLA   1102    CLA    CLA    278         -1      35.45   ; qtot -278
+; residue 1103 CLA rtp CLA  q -1.0
+   279        CLA   1103    CLA    CLA    279         -1      35.45   ; qtot -279
+; residue 1104 CLA rtp CLA  q -1.0
+   280        CLA   1104    CLA    CLA    280         -1      35.45   ; qtot -280
+; residue 1105 CLA rtp CLA  q -1.0
+   281        CLA   1105    CLA    CLA    281         -1      35.45   ; qtot -281
+; residue 1106 CLA rtp CLA  q -1.0
+   282        CLA   1106    CLA    CLA    282         -1      35.45   ; qtot -282
+; residue 1107 CLA rtp CLA  q -1.0
+   283        CLA   1107    CLA    CLA    283         -1      35.45   ; qtot -283
+; residue 1108 CLA rtp CLA  q -1.0
+   284        CLA   1108    CLA    CLA    284         -1      35.45   ; qtot -284
+; residue 1109 CLA rtp CLA  q -1.0
+   285        CLA   1109    CLA    CLA    285         -1      35.45   ; qtot -285
+; residue 1110 CLA rtp CLA  q -1.0
+   286        CLA   1110    CLA    CLA    286         -1      35.45   ; qtot -286
+; residue 1111 CLA rtp CLA  q -1.0
+   287        CLA   1111    CLA    CLA    287         -1      35.45   ; qtot -287
+; residue 1112 CLA rtp CLA  q -1.0
+   288        CLA   1112    CLA    CLA    288         -1      35.45   ; qtot -288
+; residue 1113 CLA rtp CLA  q -1.0
+   289        CLA   1113    CLA    CLA    289         -1      35.45   ; qtot -289
+; residue 1114 CLA rtp CLA  q -1.0
+   290        CLA   1114    CLA    CLA    290         -1      35.45   ; qtot -290
+; residue 1115 CLA rtp CLA  q -1.0
+   291        CLA   1115    CLA    CLA    291         -1      35.45   ; qtot -291
+; residue 1116 CLA rtp CLA  q -1.0
+   292        CLA   1116    CLA    CLA    292         -1      35.45   ; qtot -292
+; residue 1117 CLA rtp CLA  q -1.0
+   293        CLA   1117    CLA    CLA    293         -1      35.45   ; qtot -293
+; residue 1118 CLA rtp CLA  q -1.0
+   294        CLA   1118    CLA    CLA    294         -1      35.45   ; qtot -294
+; residue 1119 CLA rtp CLA  q -1.0
+   295        CLA   1119    CLA    CLA    295         -1      35.45   ; qtot -295
+; residue 1120 CLA rtp CLA  q -1.0
+   296        CLA   1120    CLA    CLA    296         -1      35.45   ; qtot -296
+; residue 1121 CLA rtp CLA  q -1.0
+   297        CLA   1121    CLA    CLA    297         -1      35.45   ; qtot -297
+; residue 1122 CLA rtp CLA  q -1.0
+   298        CLA   1122    CLA    CLA    298         -1      35.45   ; qtot -298
+; residue 1123 CLA rtp CLA  q -1.0
+   299        CLA   1123    CLA    CLA    299         -1      35.45   ; qtot -299
+; residue 1124 CLA rtp CLA  q -1.0
+   300        CLA   1124    CLA    CLA    300         -1      35.45   ; qtot -300
+; residue 1125 CLA rtp CLA  q -1.0
+   301        CLA   1125    CLA    CLA    301         -1      35.45   ; qtot -301
+; residue 1126 CLA rtp CLA  q -1.0
+   302        CLA   1126    CLA    CLA    302         -1      35.45   ; qtot -302
+; residue 1127 CLA rtp CLA  q -1.0
+   303        CLA   1127    CLA    CLA    303         -1      35.45   ; qtot -303
+; residue 1128 CLA rtp CLA  q -1.0
+   304        CLA   1128    CLA    CLA    304         -1      35.45   ; qtot -304
+; residue 1129 CLA rtp CLA  q -1.0
+   305        CLA   1129    CLA    CLA    305         -1      35.45   ; qtot -305
+; residue 1130 CLA rtp CLA  q -1.0
+   306        CLA   1130    CLA    CLA    306         -1      35.45   ; qtot -306
+; residue 1131 CLA rtp CLA  q -1.0
+   307        CLA   1131    CLA    CLA    307         -1      35.45   ; qtot -307
+; residue 1132 CLA rtp CLA  q -1.0
+   308        CLA   1132    CLA    CLA    308         -1      35.45   ; qtot -308
+; residue 1133 CLA rtp CLA  q -1.0
+   309        CLA   1133    CLA    CLA    309         -1      35.45   ; qtot -309
+; residue 1134 CLA rtp CLA  q -1.0
+   310        CLA   1134    CLA    CLA    310         -1      35.45   ; qtot -310
+; residue 1135 CLA rtp CLA  q -1.0
+   311        CLA   1135    CLA    CLA    311         -1      35.45   ; qtot -311
+; residue 1136 CLA rtp CLA  q -1.0
+   312        CLA   1136    CLA    CLA    312         -1      35.45   ; qtot -312
+; residue 1137 CLA rtp CLA  q -1.0
+   313        CLA   1137    CLA    CLA    313         -1      35.45   ; qtot -313
+; residue 1138 CLA rtp CLA  q -1.0
+   314        CLA   1138    CLA    CLA    314         -1      35.45   ; qtot -314
+; residue 1139 CLA rtp CLA  q -1.0
+   315        CLA   1139    CLA    CLA    315         -1      35.45   ; qtot -315
+; residue 1140 CLA rtp CLA  q -1.0
+   316        CLA   1140    CLA    CLA    316         -1      35.45   ; qtot -316
+; residue 1141 CLA rtp CLA  q -1.0
+   317        CLA   1141    CLA    CLA    317         -1      35.45   ; qtot -317
+; residue 1142 CLA rtp CLA  q -1.0
+   318        CLA   1142    CLA    CLA    318         -1      35.45   ; qtot -318
+; residue 1143 CLA rtp CLA  q -1.0
+   319        CLA   1143    CLA    CLA    319         -1      35.45   ; qtot -319
+; residue 1144 CLA rtp CLA  q -1.0
+   320        CLA   1144    CLA    CLA    320         -1      35.45   ; qtot -320
+; residue 1145 CLA rtp CLA  q -1.0
+   321        CLA   1145    CLA    CLA    321         -1      35.45   ; qtot -321
+; residue 1146 CLA rtp CLA  q -1.0
+   322        CLA   1146    CLA    CLA    322         -1      35.45   ; qtot -322
+; residue 1147 CLA rtp CLA  q -1.0
+   323        CLA   1147    CLA    CLA    323         -1      35.45   ; qtot -323
+; residue 1148 CLA rtp CLA  q -1.0
+   324        CLA   1148    CLA    CLA    324         -1      35.45   ; qtot -324
+; residue 1149 CLA rtp CLA  q -1.0
+   325        CLA   1149    CLA    CLA    325         -1      35.45   ; qtot -325
+; residue 1150 CLA rtp CLA  q -1.0
+   326        CLA   1150    CLA    CLA    326         -1      35.45   ; qtot -326
+; residue 1151 CLA rtp CLA  q -1.0
+   327        CLA   1151    CLA    CLA    327         -1      35.45   ; qtot -327
+; residue 1152 CLA rtp CLA  q -1.0
+   328        CLA   1152    CLA    CLA    328         -1      35.45   ; qtot -328
+; residue 1153 CLA rtp CLA  q -1.0
+   329        CLA   1153    CLA    CLA    329         -1      35.45   ; qtot -329
+; residue 1154 CLA rtp CLA  q -1.0
+   330        CLA   1154    CLA    CLA    330         -1      35.45   ; qtot -330
+; residue 1155 CLA rtp CLA  q -1.0
+   331        CLA   1155    CLA    CLA    331         -1      35.45   ; qtot -331
+; residue 1156 CLA rtp CLA  q -1.0
+   332        CLA   1156    CLA    CLA    332         -1      35.45   ; qtot -332
+; residue 1157 CLA rtp CLA  q -1.0
+   333        CLA   1157    CLA    CLA    333         -1      35.45   ; qtot -333
+; residue 1158 CLA rtp CLA  q -1.0
+   334        CLA   1158    CLA    CLA    334         -1      35.45   ; qtot -334
+; residue 1159 CLA rtp CLA  q -1.0
+   335        CLA   1159    CLA    CLA    335         -1      35.45   ; qtot -335
+; residue 1160 CLA rtp CLA  q -1.0
+   336        CLA   1160    CLA    CLA    336         -1      35.45   ; qtot -336
+; residue 1161 CLA rtp CLA  q -1.0
+   337        CLA   1161    CLA    CLA    337         -1      35.45   ; qtot -337
+; residue 1162 CLA rtp CLA  q -1.0
+   338        CLA   1162    CLA    CLA    338         -1      35.45   ; qtot -338
+; residue 1163 CLA rtp CLA  q -1.0
+   339        CLA   1163    CLA    CLA    339         -1      35.45   ; qtot -339
+; residue 1164 CLA rtp CLA  q -1.0
+   340        CLA   1164    CLA    CLA    340         -1      35.45   ; qtot -340
+; residue 1165 CLA rtp CLA  q -1.0
+   341        CLA   1165    CLA    CLA    341         -1      35.45   ; qtot -341
+; residue 1166 CLA rtp CLA  q -1.0
+   342        CLA   1166    CLA    CLA    342         -1      35.45   ; qtot -342
+; residue 1167 CLA rtp CLA  q -1.0
+   343        CLA   1167    CLA    CLA    343         -1      35.45   ; qtot -343
+; residue 1168 CLA rtp CLA  q -1.0
+   344        CLA   1168    CLA    CLA    344         -1      35.45   ; qtot -344
+; residue 1169 CLA rtp CLA  q -1.0
+   345        CLA   1169    CLA    CLA    345         -1      35.45   ; qtot -345
+; residue 1170 CLA rtp CLA  q -1.0
+   346        CLA   1170    CLA    CLA    346         -1      35.45   ; qtot -346
+; residue 1171 CLA rtp CLA  q -1.0
+   347        CLA   1171    CLA    CLA    347         -1      35.45   ; qtot -347
+; residue 1172 CLA rtp CLA  q -1.0
+   348        CLA   1172    CLA    CLA    348         -1      35.45   ; qtot -348
+; residue 1173 CLA rtp CLA  q -1.0
+   349        CLA   1173    CLA    CLA    349         -1      35.45   ; qtot -349
+; residue 1174 CLA rtp CLA  q -1.0
+   350        CLA   1174    CLA    CLA    350         -1      35.45   ; qtot -350
+; residue 1175 CLA rtp CLA  q -1.0
+   351        CLA   1175    CLA    CLA    351         -1      35.45   ; qtot -351
+; residue 1176 CLA rtp CLA  q -1.0
+   352        CLA   1176    CLA    CLA    352         -1      35.45   ; qtot -352
+; residue 1177 CLA rtp CLA  q -1.0
+   353        CLA   1177    CLA    CLA    353         -1      35.45   ; qtot -353
+; residue 1178 CLA rtp CLA  q -1.0
+   354        CLA   1178    CLA    CLA    354         -1      35.45   ; qtot -354
+; residue 1179 CLA rtp CLA  q -1.0
+   355        CLA   1179    CLA    CLA    355         -1      35.45   ; qtot -355
+; residue 1180 CLA rtp CLA  q -1.0
+   356        CLA   1180    CLA    CLA    356         -1      35.45   ; qtot -356
+; residue 1181 CLA rtp CLA  q -1.0
+   357        CLA   1181    CLA    CLA    357         -1      35.45   ; qtot -357
+; residue 1182 CLA rtp CLA  q -1.0
+   358        CLA   1182    CLA    CLA    358         -1      35.45   ; qtot -358
+; residue 1183 CLA rtp CLA  q -1.0
+   359        CLA   1183    CLA    CLA    359         -1      35.45   ; qtot -359
+; residue 1184 CLA rtp CLA  q -1.0
+   360        CLA   1184    CLA    CLA    360         -1      35.45   ; qtot -360
+; residue 1185 CLA rtp CLA  q -1.0
+   361        CLA   1185    CLA    CLA    361         -1      35.45   ; qtot -361
+; residue 1186 CLA rtp CLA  q -1.0
+   362        CLA   1186    CLA    CLA    362         -1      35.45   ; qtot -362
+; residue 1187 CLA rtp CLA  q -1.0
+   363        CLA   1187    CLA    CLA    363         -1      35.45   ; qtot -363
+; residue 1188 CLA rtp CLA  q -1.0
+   364        CLA   1188    CLA    CLA    364         -1      35.45   ; qtot -364
+; residue 1189 CLA rtp CLA  q -1.0
+   365        CLA   1189    CLA    CLA    365         -1      35.45   ; qtot -365
+; residue 1190 CLA rtp CLA  q -1.0
+   366        CLA   1190    CLA    CLA    366         -1      35.45   ; qtot -366
+; residue 1191 CLA rtp CLA  q -1.0
+   367        CLA   1191    CLA    CLA    367         -1      35.45   ; qtot -367
+; residue 1192 CLA rtp CLA  q -1.0
+   368        CLA   1192    CLA    CLA    368         -1      35.45   ; qtot -368
+; residue 1193 CLA rtp CLA  q -1.0
+   369        CLA   1193    CLA    CLA    369         -1      35.45   ; qtot -369
+; residue 1194 CLA rtp CLA  q -1.0
+   370        CLA   1194    CLA    CLA    370         -1      35.45   ; qtot -370
+; residue 1195 CLA rtp CLA  q -1.0
+   371        CLA   1195    CLA    CLA    371         -1      35.45   ; qtot -371
+; residue 1196 CLA rtp CLA  q -1.0
+   372        CLA   1196    CLA    CLA    372         -1      35.45   ; qtot -372
+; residue 1197 CLA rtp CLA  q -1.0
+   373        CLA   1197    CLA    CLA    373         -1      35.45   ; qtot -373
+; residue 1198 CLA rtp CLA  q -1.0
+   374        CLA   1198    CLA    CLA    374         -1      35.45   ; qtot -374
+; residue 1199 CLA rtp CLA  q -1.0
+   375        CLA   1199    CLA    CLA    375         -1      35.45   ; qtot -375
+; residue 1200 CLA rtp CLA  q -1.0
+   376        CLA   1200    CLA    CLA    376         -1      35.45   ; qtot -376
+; residue 1201 CLA rtp CLA  q -1.0
+   377        CLA   1201    CLA    CLA    377         -1      35.45   ; qtot -377
+; residue 1202 CLA rtp CLA  q -1.0
+   378        CLA   1202    CLA    CLA    378         -1      35.45   ; qtot -378
+; residue 1203 CLA rtp CLA  q -1.0
+   379        CLA   1203    CLA    CLA    379         -1      35.45   ; qtot -379
+; residue 1204 CLA rtp CLA  q -1.0
+   380        CLA   1204    CLA    CLA    380         -1      35.45   ; qtot -380
+; residue 1205 CLA rtp CLA  q -1.0
+   381        CLA   1205    CLA    CLA    381         -1      35.45   ; qtot -381
+; residue 1206 CLA rtp CLA  q -1.0
+   382        CLA   1206    CLA    CLA    382         -1      35.45   ; qtot -382
+; residue 1207 CLA rtp CLA  q -1.0
+   383        CLA   1207    CLA    CLA    383         -1      35.45   ; qtot -383
+; residue 1208 CLA rtp CLA  q -1.0
+   384        CLA   1208    CLA    CLA    384         -1      35.45   ; qtot -384
+; residue 1209 CLA rtp CLA  q -1.0
+   385        CLA   1209    CLA    CLA    385         -1      35.45   ; qtot -385
+; residue 1210 CLA rtp CLA  q -1.0
+   386        CLA   1210    CLA    CLA    386         -1      35.45   ; qtot -386
+; residue 1211 CLA rtp CLA  q -1.0
+   387        CLA   1211    CLA    CLA    387         -1      35.45   ; qtot -387
+; residue 1212 CLA rtp CLA  q -1.0
+   388        CLA   1212    CLA    CLA    388         -1      35.45   ; qtot -388
+; residue 1213 CLA rtp CLA  q -1.0
+   389        CLA   1213    CLA    CLA    389         -1      35.45   ; qtot -389
+; residue 1214 CLA rtp CLA  q -1.0
+   390        CLA   1214    CLA    CLA    390         -1      35.45   ; qtot -390
+; residue 1215 CLA rtp CLA  q -1.0
+   391        CLA   1215    CLA    CLA    391         -1      35.45   ; qtot -391
+; residue 1216 CLA rtp CLA  q -1.0
+   392        CLA   1216    CLA    CLA    392         -1      35.45   ; qtot -392
+; residue 1217 CLA rtp CLA  q -1.0
+   393        CLA   1217    CLA    CLA    393         -1      35.45   ; qtot -393
+; residue 1218 CLA rtp CLA  q -1.0
+   394        CLA   1218    CLA    CLA    394         -1      35.45   ; qtot -394
+; residue 1219 CLA rtp CLA  q -1.0
+   395        CLA   1219    CLA    CLA    395         -1      35.45   ; qtot -395
+; residue 1220 CLA rtp CLA  q -1.0
+   396        CLA   1220    CLA    CLA    396         -1      35.45   ; qtot -396
+; residue 1221 CLA rtp CLA  q -1.0
+   397        CLA   1221    CLA    CLA    397         -1      35.45   ; qtot -397
+; residue 1222 CLA rtp CLA  q -1.0
+   398        CLA   1222    CLA    CLA    398         -1      35.45   ; qtot -398
+; residue 1223 CLA rtp CLA  q -1.0
+   399        CLA   1223    CLA    CLA    399         -1      35.45   ; qtot -399
+; residue 1224 CLA rtp CLA  q -1.0
+   400        CLA   1224    CLA    CLA    400         -1      35.45   ; qtot -400
+; residue 1225 CLA rtp CLA  q -1.0
+   401        CLA   1225    CLA    CLA    401         -1      35.45   ; qtot -401
+; residue 1226 CLA rtp CLA  q -1.0
+   402        CLA   1226    CLA    CLA    402         -1      35.45   ; qtot -402
+; residue 1227 CLA rtp CLA  q -1.0
+   403        CLA   1227    CLA    CLA    403         -1      35.45   ; qtot -403
+; residue 1228 CLA rtp CLA  q -1.0
+   404        CLA   1228    CLA    CLA    404         -1      35.45   ; qtot -404
+; residue 1229 CLA rtp CLA  q -1.0
+   405        CLA   1229    CLA    CLA    405         -1      35.45   ; qtot -405
+; residue 1230 CLA rtp CLA  q -1.0
+   406        CLA   1230    CLA    CLA    406         -1      35.45   ; qtot -406
+; residue 1231 CLA rtp CLA  q -1.0
+   407        CLA   1231    CLA    CLA    407         -1      35.45   ; qtot -407
+; residue 1232 CLA rtp CLA  q -1.0
+   408        CLA   1232    CLA    CLA    408         -1      35.45   ; qtot -408
+; residue 1233 CLA rtp CLA  q -1.0
+   409        CLA   1233    CLA    CLA    409         -1      35.45   ; qtot -409
+; residue 1234 CLA rtp CLA  q -1.0
+   410        CLA   1234    CLA    CLA    410         -1      35.45   ; qtot -410
+; residue 1235 CLA rtp CLA  q -1.0
+   411        CLA   1235    CLA    CLA    411         -1      35.45   ; qtot -411
+; residue 1236 CLA rtp CLA  q -1.0
+   412        CLA   1236    CLA    CLA    412         -1      35.45   ; qtot -412
+; residue 1237 CLA rtp CLA  q -1.0
+   413        CLA   1237    CLA    CLA    413         -1      35.45   ; qtot -413
+; residue 1238 CLA rtp CLA  q -1.0
+   414        CLA   1238    CLA    CLA    414         -1      35.45   ; qtot -414
+; residue 1239 CLA rtp CLA  q -1.0
+   415        CLA   1239    CLA    CLA    415         -1      35.45   ; qtot -415
+; residue 1240 CLA rtp CLA  q -1.0
+   416        CLA   1240    CLA    CLA    416         -1      35.45   ; qtot -416
+; residue 1241 CLA rtp CLA  q -1.0
+   417        CLA   1241    CLA    CLA    417         -1      35.45   ; qtot -417
+; residue 1242 CLA rtp CLA  q -1.0
+   418        CLA   1242    CLA    CLA    418         -1      35.45   ; qtot -418
+; residue 1243 CLA rtp CLA  q -1.0
+   419        CLA   1243    CLA    CLA    419         -1      35.45   ; qtot -419
+; residue 1244 CLA rtp CLA  q -1.0
+   420        CLA   1244    CLA    CLA    420         -1      35.45   ; qtot -420
+; residue 1245 CLA rtp CLA  q -1.0
+   421        CLA   1245    CLA    CLA    421         -1      35.45   ; qtot -421
+; residue 1246 CLA rtp CLA  q -1.0
+   422        CLA   1246    CLA    CLA    422         -1      35.45   ; qtot -422
+; residue 1247 CLA rtp CLA  q -1.0
+   423        CLA   1247    CLA    CLA    423         -1      35.45   ; qtot -423
+; residue 1248 CLA rtp CLA  q -1.0
+   424        CLA   1248    CLA    CLA    424         -1      35.45   ; qtot -424
+; residue 1249 CLA rtp CLA  q -1.0
+   425        CLA   1249    CLA    CLA    425         -1      35.45   ; qtot -425
+; residue 1250 CLA rtp CLA  q -1.0
+   426        CLA   1250    CLA    CLA    426         -1      35.45   ; qtot -426
+; residue 1251 CLA rtp CLA  q -1.0
+   427        CLA   1251    CLA    CLA    427         -1      35.45   ; qtot -427
+; residue 1252 CLA rtp CLA  q -1.0
+   428        CLA   1252    CLA    CLA    428         -1      35.45   ; qtot -428
+; residue 1253 CLA rtp CLA  q -1.0
+   429        CLA   1253    CLA    CLA    429         -1      35.45   ; qtot -429
+; residue 1254 CLA rtp CLA  q -1.0
+   430        CLA   1254    CLA    CLA    430         -1      35.45   ; qtot -430
+; residue 1255 CLA rtp CLA  q -1.0
+   431        CLA   1255    CLA    CLA    431         -1      35.45   ; qtot -431
+; residue 1256 CLA rtp CLA  q -1.0
+   432        CLA   1256    CLA    CLA    432         -1      35.45   ; qtot -432
+; residue 1257 CLA rtp CLA  q -1.0
+   433        CLA   1257    CLA    CLA    433         -1      35.45   ; qtot -433
+; residue 1258 CLA rtp CLA  q -1.0
+   434        CLA   1258    CLA    CLA    434         -1      35.45   ; qtot -434
+; residue 1259 CLA rtp CLA  q -1.0
+   435        CLA   1259    CLA    CLA    435         -1      35.45   ; qtot -435
+; residue 1260 CLA rtp CLA  q -1.0
+   436        CLA   1260    CLA    CLA    436         -1      35.45   ; qtot -436
+; residue 1261 CLA rtp CLA  q -1.0
+   437        CLA   1261    CLA    CLA    437         -1      35.45   ; qtot -437
+; residue 1262 CLA rtp CLA  q -1.0
+   438        CLA   1262    CLA    CLA    438         -1      35.45   ; qtot -438
+; residue 1263 CLA rtp CLA  q -1.0
+   439        CLA   1263    CLA    CLA    439         -1      35.45   ; qtot -439
+; residue 1264 CLA rtp CLA  q -1.0
+   440        CLA   1264    CLA    CLA    440         -1      35.45   ; qtot -440
+; residue 1265 CLA rtp CLA  q -1.0
+   441        CLA   1265    CLA    CLA    441         -1      35.45   ; qtot -441
+; residue 1266 CLA rtp CLA  q -1.0
+   442        CLA   1266    CLA    CLA    442         -1      35.45   ; qtot -442
+; residue 1267 CLA rtp CLA  q -1.0
+   443        CLA   1267    CLA    CLA    443         -1      35.45   ; qtot -443
+; residue 1268 CLA rtp CLA  q -1.0
+   444        CLA   1268    CLA    CLA    444         -1      35.45   ; qtot -444
+; residue 1269 CLA rtp CLA  q -1.0
+   445        CLA   1269    CLA    CLA    445         -1      35.45   ; qtot -445
+; residue 1270 CLA rtp CLA  q -1.0
+   446        CLA   1270    CLA    CLA    446         -1      35.45   ; qtot -446
+; residue 1271 CLA rtp CLA  q -1.0
+   447        CLA   1271    CLA    CLA    447         -1      35.45   ; qtot -447
+; residue 1272 CLA rtp CLA  q -1.0
+   448        CLA   1272    CLA    CLA    448         -1      35.45   ; qtot -448
+; residue 1273 CLA rtp CLA  q -1.0
+   449        CLA   1273    CLA    CLA    449         -1      35.45   ; qtot -449
+; residue 1274 CLA rtp CLA  q -1.0
+   450        CLA   1274    CLA    CLA    450         -1      35.45   ; qtot -450
+; residue 1275 CLA rtp CLA  q -1.0
+   451        CLA   1275    CLA    CLA    451         -1      35.45   ; qtot -451
+; residue 1276 CLA rtp CLA  q -1.0
+   452        CLA   1276    CLA    CLA    452         -1      35.45   ; qtot -452
+; residue 1277 CLA rtp CLA  q -1.0
+   453        CLA   1277    CLA    CLA    453         -1      35.45   ; qtot -453
+; residue 1278 CLA rtp CLA  q -1.0
+   454        CLA   1278    CLA    CLA    454         -1      35.45   ; qtot -454
+; residue 1279 CLA rtp CLA  q -1.0
+   455        CLA   1279    CLA    CLA    455         -1      35.45   ; qtot -455
+; residue 1280 CLA rtp CLA  q -1.0
+   456        CLA   1280    CLA    CLA    456         -1      35.45   ; qtot -456
+; residue 1281 CLA rtp CLA  q -1.0
+   457        CLA   1281    CLA    CLA    457         -1      35.45   ; qtot -457
+; residue 1282 CLA rtp CLA  q -1.0
+   458        CLA   1282    CLA    CLA    458         -1      35.45   ; qtot -458
+; residue 1283 CLA rtp CLA  q -1.0
+   459        CLA   1283    CLA    CLA    459         -1      35.45   ; qtot -459
+; residue 1284 CLA rtp CLA  q -1.0
+   460        CLA   1284    CLA    CLA    460         -1      35.45   ; qtot -460
+; residue 1285 CLA rtp CLA  q -1.0
+   461        CLA   1285    CLA    CLA    461         -1      35.45   ; qtot -461
+; residue 1286 CLA rtp CLA  q -1.0
+   462        CLA   1286    CLA    CLA    462         -1      35.45   ; qtot -462
+; residue 1287 CLA rtp CLA  q -1.0
+   463        CLA   1287    CLA    CLA    463         -1      35.45   ; qtot -463
+; residue 1288 CLA rtp CLA  q -1.0
+   464        CLA   1288    CLA    CLA    464         -1      35.45   ; qtot -464
+; residue 1289 CLA rtp CLA  q -1.0
+   465        CLA   1289    CLA    CLA    465         -1      35.45   ; qtot -465
+; residue 1290 CLA rtp CLA  q -1.0
+   466        CLA   1290    CLA    CLA    466         -1      35.45   ; qtot -466
+; residue 1291 CLA rtp CLA  q -1.0
+   467        CLA   1291    CLA    CLA    467         -1      35.45   ; qtot -467
+; residue 1292 CLA rtp CLA  q -1.0
+   468        CLA   1292    CLA    CLA    468         -1      35.45   ; qtot -468
+; residue 1293 CLA rtp CLA  q -1.0
+   469        CLA   1293    CLA    CLA    469         -1      35.45   ; qtot -469
+; residue 1294 CLA rtp CLA  q -1.0
+   470        CLA   1294    CLA    CLA    470         -1      35.45   ; qtot -470
+; residue 1295 CLA rtp CLA  q -1.0
+   471        CLA   1295    CLA    CLA    471         -1      35.45   ; qtot -471
+; residue 1296 CLA rtp CLA  q -1.0
+   472        CLA   1296    CLA    CLA    472         -1      35.45   ; qtot -472
+; residue 1297 CLA rtp CLA  q -1.0
+   473        CLA   1297    CLA    CLA    473         -1      35.45   ; qtot -473
+; residue 1298 CLA rtp CLA  q -1.0
+   474        CLA   1298    CLA    CLA    474         -1      35.45   ; qtot -474
+; residue 1299 CLA rtp CLA  q -1.0
+   475        CLA   1299    CLA    CLA    475         -1      35.45   ; qtot -475
+; residue 1300 CLA rtp CLA  q -1.0
+   476        CLA   1300    CLA    CLA    476         -1      35.45   ; qtot -476
+; residue 1301 CLA rtp CLA  q -1.0
+   477        CLA   1301    CLA    CLA    477         -1      35.45   ; qtot -477
+; residue 1302 CLA rtp CLA  q -1.0
+   478        CLA   1302    CLA    CLA    478         -1      35.45   ; qtot -478
+; residue 1303 CLA rtp CLA  q -1.0
+   479        CLA   1303    CLA    CLA    479         -1      35.45   ; qtot -479
+; residue 1304 CLA rtp CLA  q -1.0
+   480        CLA   1304    CLA    CLA    480         -1      35.45   ; qtot -480
+; residue 1305 CLA rtp CLA  q -1.0
+   481        CLA   1305    CLA    CLA    481         -1      35.45   ; qtot -481
+; residue 1306 CLA rtp CLA  q -1.0
+   482        CLA   1306    CLA    CLA    482         -1      35.45   ; qtot -482
+; residue 1307 CLA rtp CLA  q -1.0
+   483        CLA   1307    CLA    CLA    483         -1      35.45   ; qtot -483
+; residue 1308 CLA rtp CLA  q -1.0
+   484        CLA   1308    CLA    CLA    484         -1      35.45   ; qtot -484
+; residue 1309 CLA rtp CLA  q -1.0
+   485        CLA   1309    CLA    CLA    485         -1      35.45   ; qtot -485
+; residue 1310 CLA rtp CLA  q -1.0
+   486        CLA   1310    CLA    CLA    486         -1      35.45   ; qtot -486
+; residue 1311 CLA rtp CLA  q -1.0
+   487        CLA   1311    CLA    CLA    487         -1      35.45   ; qtot -487
+; residue 1312 CLA rtp CLA  q -1.0
+   488        CLA   1312    CLA    CLA    488         -1      35.45   ; qtot -488
+; residue 1313 CLA rtp CLA  q -1.0
+   489        CLA   1313    CLA    CLA    489         -1      35.45   ; qtot -489
+; residue 1314 CLA rtp CLA  q -1.0
+   490        CLA   1314    CLA    CLA    490         -1      35.45   ; qtot -490
+; residue 1315 CLA rtp CLA  q -1.0
+   491        CLA   1315    CLA    CLA    491         -1      35.45   ; qtot -491
+; residue 1316 CLA rtp CLA  q -1.0
+   492        CLA   1316    CLA    CLA    492         -1      35.45   ; qtot -492
+; residue 1317 CLA rtp CLA  q -1.0
+   493        CLA   1317    CLA    CLA    493         -1      35.45   ; qtot -493
+; residue 1318 CLA rtp CLA  q -1.0
+   494        CLA   1318    CLA    CLA    494         -1      35.45   ; qtot -494
+; residue 1319 CLA rtp CLA  q -1.0
+   495        CLA   1319    CLA    CLA    495         -1      35.45   ; qtot -495
+; residue 1320 CLA rtp CLA  q -1.0
+   496        CLA   1320    CLA    CLA    496         -1      35.45   ; qtot -496
+; residue 1321 CLA rtp CLA  q -1.0
+   497        CLA   1321    CLA    CLA    497         -1      35.45   ; qtot -497
+; residue 1322 CLA rtp CLA  q -1.0
+   498        CLA   1322    CLA    CLA    498         -1      35.45   ; qtot -498
+; residue 1323 CLA rtp CLA  q -1.0
+   499        CLA   1323    CLA    CLA    499         -1      35.45   ; qtot -499
+; residue 1324 CLA rtp CLA  q -1.0
+   500        CLA   1324    CLA    CLA    500         -1      35.45   ; qtot -500
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Other_chain_C.itp"
+#endif
+
