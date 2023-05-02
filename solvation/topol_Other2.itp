@@ -2,7 +2,7 @@
 ;	File 'topol_Other2.itp' was generated
 ;	By user: kierannp (1042)
 ;	On host: head.cl.vanderbilt.edu
-;	At date: Thu Mar  9 13:17:00 2023
+;	At date: Fri Apr 14 16:30:50 2023
 ;
 ;	This is a include topology file
 ;
@@ -11,7 +11,7 @@
 ;	
 ;	Executable:   /raid6/software/gromacs-2022/bin/gmx
 ;	Data prefix:  /raid6/software/gromacs-2022
-;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/working
+;	Working dir:  /raid6/homes/kierannp/projects/deep-protein/solvation
 ;	Command line:
 ;	  gmx pdb2gmx -f protein_des.pdb -o protein_des.gro
 ;	Force field was read from current directory or a relative path - path added.
@@ -42038,3 +42038,9 @@ Other2              3
  7980  7977  7982  7981     2 
  7988  7985  7990  7989     2 
  7996  7993  7998  7997     2 
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Other2.itp"
+#endif
+

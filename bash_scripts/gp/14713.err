@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "run_system.py", line 43, in <module>
+    optimizer.maximize(
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 311, in maximize
+    self.probe(x_probe, lazy=False)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 208, in probe
+    self._space.probe(params)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/target_space.py", line 236, in probe
+    target = self.target_func(**params)
+  File "run_system.py", line 23, in run_simulation
+    simulation.build_system(
+  File "/raid6/homes/kierannp/projects/deep-protein/dprotein/dprotein.py", line 34, in build_system
+    os.mkdir(self.working_dir)
+FileExistsError: [Errno 17] File exists: '/raid6/homes/kierannp/projects/deep-protein/sandbox/0.417022004702574_0.7203244934421581'

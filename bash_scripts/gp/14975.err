@@ -1,0 +1,1205 @@
+                      :-) GROMACS - gmx editconf, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx editconf -f 1E6R_clean.pdb -o 1E6R_clean_newbox.pdb -c -d 2.0 -bt cubic
+
+WARNING: all CONECT records are ignored
+
+GROMACS reminds you: "You should never bet against anything in science at odds of more than about 10^12 to 1." (Ernest Rutherford)
+
+                  :-) GROMACS - gmx insert-molecules, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx insert-molecules -f 1E6R_clean_newbox.pdb -ci /raid6/homes/kierannp/projects/deep-protein/data/pdbs/HBA/choline.pdb -nmol 383 -try 1000 -o out.pdb
+
+Reading solute configuration
+Initialising inter-atomic distances...
+Using random seed -129
+Try 1 success (now 4009 atoms)!
+Try 2 success (now 4030 atoms)!
+Try 3 success (now 4051 atoms)!
+Try 4 success (now 4072 atoms)!
+Try 5 success (now 4093 atoms)!
+Try 6 success (now 4114 atoms)!
+Try 7 success (now 4135 atoms)!
+Try 8 success (now 4156 atoms)!
+Try 9 success (now 4177 atoms)!
+Try 10 success (now 4198 atoms)!
+Try 11 success (now 4219 atoms)!
+Try 12 success (now 4240 atoms)!
+Try 13 success (now 4261 atoms)!
+Try 14 success (now 4282 atoms)!
+Try 15 success (now 4303 atoms)!
+Try 16 success (now 4324 atoms)!
+Try 17 success (now 4345 atoms)!
+Try 18 success (now 4366 atoms)!
+Try 19 success (now 4387 atoms)!
+Try 20 success (now 4408 atoms)!
+Try 21 success (now 4429 atoms)!
+Try 22Try 23 success (now 4450 atoms)!
+Try 24 success (now 4471 atoms)!
+Try 25 success (now 4492 atoms)!
+Try 26 success (now 4513 atoms)!
+Try 27 success (now 4534 atoms)!
+Try 28 success (now 4555 atoms)!
+Try 29 success (now 4576 atoms)!
+Try 30 success (now 4597 atoms)!
+Try 31 success (now 4618 atoms)!
+Try 32 success (now 4639 atoms)!
+Try 33 success (now 4660 atoms)!
+Try 34 success (now 4681 atoms)!
+Try 35 success (now 4702 atoms)!
+Try 36 success (now 4723 atoms)!
+Try 37 success (now 4744 atoms)!
+Try 38 success (now 4765 atoms)!
+Try 39 success (now 4786 atoms)!
+Try 40 success (now 4807 atoms)!
+Try 41 success (now 4828 atoms)!
+Try 42 success (now 4849 atoms)!
+Try 43 success (now 4870 atoms)!
+Try 44 success (now 4891 atoms)!
+Try 45 success (now 4912 atoms)!
+Try 46 success (now 4933 atoms)!
+Try 47Try 48Try 49 success (now 4954 atoms)!
+Try 50 success (now 4975 atoms)!
+Try 51 success (now 4996 atoms)!
+Try 52 success (now 5017 atoms)!
+Try 53 success (now 5038 atoms)!
+Try 54 success (now 5059 atoms)!
+Try 55 success (now 5080 atoms)!
+Try 56 success (now 5101 atoms)!
+Try 57 success (now 5122 atoms)!
+Try 58 success (now 5143 atoms)!
+Try 59 success (now 5164 atoms)!
+Try 60 success (now 5185 atoms)!
+Try 61 success (now 5206 atoms)!
+Try 62 success (now 5227 atoms)!
+Try 63 success (now 5248 atoms)!
+Try 64 success (now 5269 atoms)!
+Try 65 success (now 5290 atoms)!
+Try 66 success (now 5311 atoms)!
+Try 67 success (now 5332 atoms)!
+Try 68 success (now 5353 atoms)!
+Try 69 success (now 5374 atoms)!
+Try 70 success (now 5395 atoms)!
+Try 71 success (now 5416 atoms)!
+Try 72 success (now 5437 atoms)!
+Try 73 success (now 5458 atoms)!
+Try 74 success (now 5479 atoms)!
+Try 75Try 76 success (now 5500 atoms)!
+Try 77 success (now 5521 atoms)!
+Try 78 success (now 5542 atoms)!
+Try 79 success (now 5563 atoms)!
+Try 80 success (now 5584 atoms)!
+Try 81 success (now 5605 atoms)!
+Try 82 success (now 5626 atoms)!
+Try 83 success (now 5647 atoms)!
+Try 84 success (now 5668 atoms)!
+Try 85 success (now 5689 atoms)!
+Try 86 success (now 5710 atoms)!
+Try 87Try 88 success (now 5731 atoms)!
+Try 89 success (now 5752 atoms)!
+Try 90Try 91 success (now 5773 atoms)!
+Try 92 success (now 5794 atoms)!
+Try 93Try 94 success (now 5815 atoms)!
+Try 95 success (now 5836 atoms)!
+Try 96 success (now 5857 atoms)!
+Try 97 success (now 5878 atoms)!
+Try 98 success (now 5899 atoms)!
+Try 99 success (now 5920 atoms)!
+Try 100 success (now 5941 atoms)!
+Try 101 success (now 5962 atoms)!
+Try 102 success (now 5983 atoms)!
+Try 103 success (now 6004 atoms)!
+Try 104 success (now 6025 atoms)!
+Try 105 success (now 6046 atoms)!
+Try 106 success (now 6067 atoms)!
+Try 107 success (now 6088 atoms)!
+Try 108 success (now 6109 atoms)!
+Try 109 success (now 6130 atoms)!
+Try 110 success (now 6151 atoms)!
+Try 111 success (now 6172 atoms)!
+Try 112 success (now 6193 atoms)!
+Try 113 success (now 6214 atoms)!
+Try 114 success (now 6235 atoms)!
+Try 115 success (now 6256 atoms)!
+Try 116 success (now 6277 atoms)!
+Try 117 success (now 6298 atoms)!
+Try 118 success (now 6319 atoms)!
+Try 119 success (now 6340 atoms)!
+Try 120 success (now 6361 atoms)!
+Try 121 success (now 6382 atoms)!
+Try 122Try 123 success (now 6403 atoms)!
+Try 124 success (now 6424 atoms)!
+Try 125 success (now 6445 atoms)!
+Try 126 success (now 6466 atoms)!
+Try 127 success (now 6487 atoms)!
+Try 128 success (now 6508 atoms)!
+Try 129 success (now 6529 atoms)!
+Try 130 success (now 6550 atoms)!
+Try 131 success (now 6571 atoms)!
+Try 132 success (now 6592 atoms)!
+Try 133 success (now 6613 atoms)!
+Try 134 success (now 6634 atoms)!
+Try 135 success (now 6655 atoms)!
+Try 136 success (now 6676 atoms)!
+Try 137 success (now 6697 atoms)!
+Try 138 success (now 6718 atoms)!
+Try 139 success (now 6739 atoms)!
+Try 140 success (now 6760 atoms)!
+Try 141 success (now 6781 atoms)!
+Try 142 success (now 6802 atoms)!
+Try 143 success (now 6823 atoms)!
+Try 144 success (now 6844 atoms)!
+Try 145 success (now 6865 atoms)!
+Try 146 success (now 6886 atoms)!
+Try 147 success (now 6907 atoms)!
+Try 148 success (now 6928 atoms)!
+Try 149 success (now 6949 atoms)!
+Try 150 success (now 6970 atoms)!
+Try 151 success (now 6991 atoms)!
+Try 152Try 153 success (now 7012 atoms)!
+Try 154 success (now 7033 atoms)!
+Try 155Try 156 success (now 7054 atoms)!
+Try 157 success (now 7075 atoms)!
+Try 158 success (now 7096 atoms)!
+Try 159 success (now 7117 atoms)!
+Try 160Try 161 success (now 7138 atoms)!
+Try 162 success (now 7159 atoms)!
+Try 163 success (now 7180 atoms)!
+Try 164 success (now 7201 atoms)!
+Try 165Try 166Try 167 success (now 7222 atoms)!
+Try 168Try 169 success (now 7243 atoms)!
+Try 170 success (now 7264 atoms)!
+Try 171 success (now 7285 atoms)!
+Try 172 success (now 7306 atoms)!
+Try 173 success (now 7327 atoms)!
+Try 174 success (now 7348 atoms)!
+Try 175 success (now 7369 atoms)!
+Try 176 success (now 7390 atoms)!
+Try 177Try 178Try 179 success (now 7411 atoms)!
+Try 180 success (now 7432 atoms)!
+Try 181 success (now 7453 atoms)!
+Try 182 success (now 7474 atoms)!
+Try 183Try 184 success (now 7495 atoms)!
+Try 185 success (now 7516 atoms)!
+Try 186 success (now 7537 atoms)!
+Try 187 success (now 7558 atoms)!
+Try 188 success (now 7579 atoms)!
+Try 189 success (now 7600 atoms)!
+Try 190 success (now 7621 atoms)!
+Try 191 success (now 7642 atoms)!
+Try 192Try 193 success (now 7663 atoms)!
+Try 194 success (now 7684 atoms)!
+Try 195 success (now 7705 atoms)!
+Try 196 success (now 7726 atoms)!
+Try 197 success (now 7747 atoms)!
+Try 198 success (now 7768 atoms)!
+Try 199Try 200 success (now 7789 atoms)!
+Try 201 success (now 7810 atoms)!
+Try 202Try 203 success (now 7831 atoms)!
+Try 204 success (now 7852 atoms)!
+Try 205 success (now 7873 atoms)!
+Try 206Try 207 success (now 7894 atoms)!
+Try 208 success (now 7915 atoms)!
+Try 209 success (now 7936 atoms)!
+Try 210Try 211 success (now 7957 atoms)!
+Try 212 success (now 7978 atoms)!
+Try 213 success (now 7999 atoms)!
+Try 214Try 215Try 216Try 217Try 218 success (now 8020 atoms)!
+Try 219 success (now 8041 atoms)!
+Try 220 success (now 8062 atoms)!
+Try 221 success (now 8083 atoms)!
+Try 222 success (now 8104 atoms)!
+Try 223Try 224 success (now 8125 atoms)!
+Try 225 success (now 8146 atoms)!
+Try 226 success (now 8167 atoms)!
+Try 227 success (now 8188 atoms)!
+Try 228 success (now 8209 atoms)!
+Try 229Try 230Try 231Try 232 success (now 8230 atoms)!
+Try 233 success (now 8251 atoms)!
+Try 234 success (now 8272 atoms)!
+Try 235Try 236 success (now 8293 atoms)!
+Try 237 success (now 8314 atoms)!
+Try 238 success (now 8335 atoms)!
+Try 239Try 240 success (now 8356 atoms)!
+Try 241Try 242Try 243 success (now 8377 atoms)!
+Try 244 success (now 8398 atoms)!
+Try 245 success (now 8419 atoms)!
+Try 246 success (now 8440 atoms)!
+Try 247 success (now 8461 atoms)!
+Try 248 success (now 8482 atoms)!
+Try 249 success (now 8503 atoms)!
+Try 250 success (now 8524 atoms)!
+Try 251 success (now 8545 atoms)!
+Try 252 success (now 8566 atoms)!
+Try 253 success (now 8587 atoms)!
+Try 254 success (now 8608 atoms)!
+Try 255 success (now 8629 atoms)!
+Try 256 success (now 8650 atoms)!
+Try 257 success (now 8671 atoms)!
+Try 258Try 259 success (now 8692 atoms)!
+Try 260 success (now 8713 atoms)!
+Try 261 success (now 8734 atoms)!
+Try 262 success (now 8755 atoms)!
+Try 263Try 264 success (now 8776 atoms)!
+Try 265 success (now 8797 atoms)!
+Try 266 success (now 8818 atoms)!
+Try 267 success (now 8839 atoms)!
+Try 268 success (now 8860 atoms)!
+Try 269 success (now 8881 atoms)!
+Try 270 success (now 8902 atoms)!
+Try 271 success (now 8923 atoms)!
+Try 272 success (now 8944 atoms)!
+Try 273 success (now 8965 atoms)!
+Try 274 success (now 8986 atoms)!
+Try 275Try 276 success (now 9007 atoms)!
+Try 277 success (now 9028 atoms)!
+Try 278 success (now 9049 atoms)!
+Try 279 success (now 9070 atoms)!
+Try 280 success (now 9091 atoms)!
+Try 281 success (now 9112 atoms)!
+Try 282 success (now 9133 atoms)!
+Try 283 success (now 9154 atoms)!
+Try 284 success (now 9175 atoms)!
+Try 285 success (now 9196 atoms)!
+Try 286Try 287 success (now 9217 atoms)!
+Try 288 success (now 9238 atoms)!
+Try 289 success (now 9259 atoms)!
+Try 290Try 291Try 292 success (now 9280 atoms)!
+Try 293 success (now 9301 atoms)!
+Try 294 success (now 9322 atoms)!
+Try 295 success (now 9343 atoms)!
+Try 296 success (now 9364 atoms)!
+Try 297 success (now 9385 atoms)!
+Try 298 success (now 9406 atoms)!
+Try 299 success (now 9427 atoms)!
+Try 300 success (now 9448 atoms)!
+Try 301Try 302Try 303 success (now 9469 atoms)!
+Try 304 success (now 9490 atoms)!
+Try 305 success (now 9511 atoms)!
+Try 306Try 307 success (now 9532 atoms)!
+Try 308 success (now 9553 atoms)!
+Try 309Try 310 success (now 9574 atoms)!
+Try 311 success (now 9595 atoms)!
+Try 312 success (now 9616 atoms)!
+Try 313 success (now 9637 atoms)!
+Try 314 success (now 9658 atoms)!
+Try 315 success (now 9679 atoms)!
+Try 316 success (now 9700 atoms)!
+Try 317 success (now 9721 atoms)!
+Try 318Try 319 success (now 9742 atoms)!
+Try 320Try 321 success (now 9763 atoms)!
+Try 322 success (now 9784 atoms)!
+Try 323 success (now 9805 atoms)!
+Try 324 success (now 9826 atoms)!
+Try 325Try 326 success (now 9847 atoms)!
+Try 327 success (now 9868 atoms)!
+Try 328 success (now 9889 atoms)!
+Try 329 success (now 9910 atoms)!
+Try 330 success (now 9931 atoms)!
+Try 331 success (now 9952 atoms)!
+Try 332 success (now 9973 atoms)!
+Try 333Try 334 success (now 9994 atoms)!
+Try 335 success (now 10015 atoms)!
+Try 336 success (now 10036 atoms)!
+Try 337 success (now 10057 atoms)!
+Try 338 success (now 10078 atoms)!
+Try 339 success (now 10099 atoms)!
+Try 340 success (now 10120 atoms)!
+Try 341 success (now 10141 atoms)!
+Try 342 success (now 10162 atoms)!
+Try 343 success (now 10183 atoms)!
+Try 344 success (now 10204 atoms)!
+Try 345 success (now 10225 atoms)!
+Try 346 success (now 10246 atoms)!
+Try 347Try 348 success (now 10267 atoms)!
+Try 349 success (now 10288 atoms)!
+Try 350 success (now 10309 atoms)!
+Try 351Try 352 success (now 10330 atoms)!
+Try 353Try 354 success (now 10351 atoms)!
+Try 355 success (now 10372 atoms)!
+Try 356Try 357 success (now 10393 atoms)!
+Try 358 success (now 10414 atoms)!
+Try 359 success (now 10435 atoms)!
+Try 360 success (now 10456 atoms)!
+Try 361 success (now 10477 atoms)!
+Try 362 success (now 10498 atoms)!
+Try 363Try 364Try 365 success (now 10519 atoms)!
+Try 366Try 367 success (now 10540 atoms)!
+Try 368Try 369 success (now 10561 atoms)!
+Try 370 success (now 10582 atoms)!
+Try 371 success (now 10603 atoms)!
+Try 372 success (now 10624 atoms)!
+Try 373 success (now 10645 atoms)!
+Try 374Try 375 success (now 10666 atoms)!
+Try 376Try 377Try 378 success (now 10687 atoms)!
+Try 379 success (now 10708 atoms)!
+Try 380Try 381 success (now 10729 atoms)!
+Try 382 success (now 10750 atoms)!
+Try 383 success (now 10771 atoms)!
+Try 384 success (now 10792 atoms)!
+Try 385 success (now 10813 atoms)!
+Try 386 success (now 10834 atoms)!
+Try 387 success (now 10855 atoms)!
+Try 388 success (now 10876 atoms)!
+Try 389Try 390Try 391Try 392 success (now 10897 atoms)!
+Try 393 success (now 10918 atoms)!
+Try 394Try 395Try 396 success (now 10939 atoms)!
+Try 397 success (now 10960 atoms)!
+Try 398 success (now 10981 atoms)!
+Try 399 success (now 11002 atoms)!
+Try 400Try 401Try 402 success (now 11023 atoms)!
+Try 403 success (now 11044 atoms)!
+Try 404 success (now 11065 atoms)!
+Try 405Try 406Try 407 success (now 11086 atoms)!
+Try 408 success (now 11107 atoms)!
+Try 409 success (now 11128 atoms)!
+Try 410Try 411 success (now 11149 atoms)!
+Try 412 success (now 11170 atoms)!
+Try 413 success (now 11191 atoms)!
+Try 414 success (now 11212 atoms)!
+Try 415Try 416 success (now 11233 atoms)!
+Try 417 success (now 11254 atoms)!
+Try 418 success (now 11275 atoms)!
+Try 419 success (now 11296 atoms)!
+Try 420 success (now 11317 atoms)!
+Try 421 success (now 11338 atoms)!
+Try 422 success (now 11359 atoms)!
+Try 423Try 424Try 425 success (now 11380 atoms)!
+Try 426 success (now 11401 atoms)!
+Try 427 success (now 11422 atoms)!
+Try 428Try 429 success (now 11443 atoms)!
+Try 430Try 431Try 432Try 433 success (now 11464 atoms)!
+Try 434 success (now 11485 atoms)!
+Try 435Try 436 success (now 11506 atoms)!
+Try 437 success (now 11527 atoms)!
+Try 438 success (now 11548 atoms)!
+Try 439Try 440 success (now 11569 atoms)!
+Try 441 success (now 11590 atoms)!
+Try 442 success (now 11611 atoms)!
+Try 443 success (now 11632 atoms)!
+Try 444Try 445 success (now 11653 atoms)!
+Try 446 success (now 11674 atoms)!
+Try 447 success (now 11695 atoms)!
+Try 448Try 449 success (now 11716 atoms)!
+Try 450 success (now 11737 atoms)!
+Try 451 success (now 11758 atoms)!
+Try 452Try 453Try 454 success (now 11779 atoms)!
+Try 455Try 456 success (now 11800 atoms)!
+Try 457 success (now 11821 atoms)!
+Try 458 success (now 11842 atoms)!
+Try 459 success (now 11863 atoms)!
+Try 460 success (now 11884 atoms)!
+Try 461 success (now 11905 atoms)!
+Try 462Try 463Try 464 success (now 11926 atoms)!
+Try 465Try 466 success (now 11947 atoms)!
+Try 467 success (now 11968 atoms)!
+Try 468Try 469 success (now 11989 atoms)!
+Try 470 success (now 12010 atoms)!
+Try 471 success (now 12031 atoms)!
+
+Added 383 molecules (out of 383 requested)
+Writing generated configuration to out.pdb
+
+Output configuration contains 12031 atoms in 889 residues
+
+GROMACS reminds you: "Two guys can move very fast when they're motivated enough and unemployed" (Eric Betzig)
+
+                  :-) GROMACS - gmx insert-molecules, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx insert-molecules -f out.pdb -ci /raid6/homes/kierannp/projects/deep-protein/data/pdbs/HBA/cla.pdb -nmol 379 -try 1000 -o hba_out.pdb
+
+Reading solute configuration
+Initialising inter-atomic distances...
+Using random seed -269846401
+Try 1 success (now 12032 atoms)!
+Try 2 success (now 12033 atoms)!
+Try 3 success (now 12034 atoms)!
+Try 4 success (now 12035 atoms)!
+Try 5 success (now 12036 atoms)!
+Try 6 success (now 12037 atoms)!
+Try 7 success (now 12038 atoms)!
+Try 8 success (now 12039 atoms)!
+Try 9 success (now 12040 atoms)!
+Try 10 success (now 12041 atoms)!
+Try 11 success (now 12042 atoms)!
+Try 12 success (now 12043 atoms)!
+Try 13 success (now 12044 atoms)!
+Try 14 success (now 12045 atoms)!
+Try 15 success (now 12046 atoms)!
+Try 16 success (now 12047 atoms)!
+Try 17 success (now 12048 atoms)!
+Try 18 success (now 12049 atoms)!
+Try 19 success (now 12050 atoms)!
+Try 20 success (now 12051 atoms)!
+Try 21 success (now 12052 atoms)!
+Try 22 success (now 12053 atoms)!
+Try 23 success (now 12054 atoms)!
+Try 24 success (now 12055 atoms)!
+Try 25 success (now 12056 atoms)!
+Try 26 success (now 12057 atoms)!
+Try 27Try 28Try 29 success (now 12058 atoms)!
+Try 30 success (now 12059 atoms)!
+Try 31 success (now 12060 atoms)!
+Try 32 success (now 12061 atoms)!
+Try 33 success (now 12062 atoms)!
+Try 34 success (now 12063 atoms)!
+Try 35 success (now 12064 atoms)!
+Try 36 success (now 12065 atoms)!
+Try 37 success (now 12066 atoms)!
+Try 38 success (now 12067 atoms)!
+Try 39 success (now 12068 atoms)!
+Try 40Try 41 success (now 12069 atoms)!
+Try 42 success (now 12070 atoms)!
+Try 43 success (now 12071 atoms)!
+Try 44 success (now 12072 atoms)!
+Try 45 success (now 12073 atoms)!
+Try 46 success (now 12074 atoms)!
+Try 47 success (now 12075 atoms)!
+Try 48 success (now 12076 atoms)!
+Try 49 success (now 12077 atoms)!
+Try 50 success (now 12078 atoms)!
+Try 51 success (now 12079 atoms)!
+Try 52 success (now 12080 atoms)!
+Try 53 success (now 12081 atoms)!
+Try 54 success (now 12082 atoms)!
+Try 55 success (now 12083 atoms)!
+Try 56 success (now 12084 atoms)!
+Try 57 success (now 12085 atoms)!
+Try 58 success (now 12086 atoms)!
+Try 59 success (now 12087 atoms)!
+Try 60Try 61 success (now 12088 atoms)!
+Try 62 success (now 12089 atoms)!
+Try 63 success (now 12090 atoms)!
+Try 64Try 65 success (now 12091 atoms)!
+Try 66 success (now 12092 atoms)!
+Try 67 success (now 12093 atoms)!
+Try 68 success (now 12094 atoms)!
+Try 69 success (now 12095 atoms)!
+Try 70 success (now 12096 atoms)!
+Try 71 success (now 12097 atoms)!
+Try 72 success (now 12098 atoms)!
+Try 73 success (now 12099 atoms)!
+Try 74 success (now 12100 atoms)!
+Try 75Try 76 success (now 12101 atoms)!
+Try 77 success (now 12102 atoms)!
+Try 78 success (now 12103 atoms)!
+Try 79 success (now 12104 atoms)!
+Try 80 success (now 12105 atoms)!
+Try 81 success (now 12106 atoms)!
+Try 82 success (now 12107 atoms)!
+Try 83 success (now 12108 atoms)!
+Try 84 success (now 12109 atoms)!
+Try 85 success (now 12110 atoms)!
+Try 86 success (now 12111 atoms)!
+Try 87Try 88 success (now 12112 atoms)!
+Try 89 success (now 12113 atoms)!
+Try 90 success (now 12114 atoms)!
+Try 91 success (now 12115 atoms)!
+Try 92 success (now 12116 atoms)!
+Try 93 success (now 12117 atoms)!
+Try 94 success (now 12118 atoms)!
+Try 95 success (now 12119 atoms)!
+Try 96Try 97 success (now 12120 atoms)!
+Try 98 success (now 12121 atoms)!
+Try 99 success (now 12122 atoms)!
+Try 100 success (now 12123 atoms)!
+Try 101 success (now 12124 atoms)!
+Try 102 success (now 12125 atoms)!
+Try 103 success (now 12126 atoms)!
+Try 104 success (now 12127 atoms)!
+Try 105 success (now 12128 atoms)!
+Try 106 success (now 12129 atoms)!
+Try 107 success (now 12130 atoms)!
+Try 108 success (now 12131 atoms)!
+Try 109 success (now 12132 atoms)!
+Try 110 success (now 12133 atoms)!
+Try 111Try 112 success (now 12134 atoms)!
+Try 113 success (now 12135 atoms)!
+Try 114 success (now 12136 atoms)!
+Try 115 success (now 12137 atoms)!
+Try 116 success (now 12138 atoms)!
+Try 117 success (now 12139 atoms)!
+Try 118 success (now 12140 atoms)!
+Try 119 success (now 12141 atoms)!
+Try 120 success (now 12142 atoms)!
+Try 121 success (now 12143 atoms)!
+Try 122Try 123 success (now 12144 atoms)!
+Try 124 success (now 12145 atoms)!
+Try 125 success (now 12146 atoms)!
+Try 126 success (now 12147 atoms)!
+Try 127 success (now 12148 atoms)!
+Try 128 success (now 12149 atoms)!
+Try 129 success (now 12150 atoms)!
+Try 130 success (now 12151 atoms)!
+Try 131 success (now 12152 atoms)!
+Try 132 success (now 12153 atoms)!
+Try 133 success (now 12154 atoms)!
+Try 134 success (now 12155 atoms)!
+Try 135 success (now 12156 atoms)!
+Try 136 success (now 12157 atoms)!
+Try 137Try 138 success (now 12158 atoms)!
+Try 139 success (now 12159 atoms)!
+Try 140 success (now 12160 atoms)!
+Try 141 success (now 12161 atoms)!
+Try 142 success (now 12162 atoms)!
+Try 143 success (now 12163 atoms)!
+Try 144 success (now 12164 atoms)!
+Try 145 success (now 12165 atoms)!
+Try 146 success (now 12166 atoms)!
+Try 147 success (now 12167 atoms)!
+Try 148Try 149 success (now 12168 atoms)!
+Try 150 success (now 12169 atoms)!
+Try 151 success (now 12170 atoms)!
+Try 152 success (now 12171 atoms)!
+Try 153 success (now 12172 atoms)!
+Try 154 success (now 12173 atoms)!
+Try 155 success (now 12174 atoms)!
+Try 156 success (now 12175 atoms)!
+Try 157 success (now 12176 atoms)!
+Try 158 success (now 12177 atoms)!
+Try 159 success (now 12178 atoms)!
+Try 160 success (now 12179 atoms)!
+Try 161 success (now 12180 atoms)!
+Try 162 success (now 12181 atoms)!
+Try 163 success (now 12182 atoms)!
+Try 164 success (now 12183 atoms)!
+Try 165Try 166 success (now 12184 atoms)!
+Try 167 success (now 12185 atoms)!
+Try 168 success (now 12186 atoms)!
+Try 169 success (now 12187 atoms)!
+Try 170 success (now 12188 atoms)!
+Try 171 success (now 12189 atoms)!
+Try 172 success (now 12190 atoms)!
+Try 173 success (now 12191 atoms)!
+Try 174 success (now 12192 atoms)!
+Try 175 success (now 12193 atoms)!
+Try 176 success (now 12194 atoms)!
+Try 177 success (now 12195 atoms)!
+Try 178 success (now 12196 atoms)!
+Try 179 success (now 12197 atoms)!
+Try 180 success (now 12198 atoms)!
+Try 181 success (now 12199 atoms)!
+Try 182 success (now 12200 atoms)!
+Try 183 success (now 12201 atoms)!
+Try 184 success (now 12202 atoms)!
+Try 185 success (now 12203 atoms)!
+Try 186 success (now 12204 atoms)!
+Try 187 success (now 12205 atoms)!
+Try 188 success (now 12206 atoms)!
+Try 189 success (now 12207 atoms)!
+Try 190 success (now 12208 atoms)!
+Try 191 success (now 12209 atoms)!
+Try 192 success (now 12210 atoms)!
+Try 193 success (now 12211 atoms)!
+Try 194 success (now 12212 atoms)!
+Try 195 success (now 12213 atoms)!
+Try 196 success (now 12214 atoms)!
+Try 197 success (now 12215 atoms)!
+Try 198 success (now 12216 atoms)!
+Try 199 success (now 12217 atoms)!
+Try 200 success (now 12218 atoms)!
+Try 201 success (now 12219 atoms)!
+Try 202 success (now 12220 atoms)!
+Try 203 success (now 12221 atoms)!
+Try 204 success (now 12222 atoms)!
+Try 205 success (now 12223 atoms)!
+Try 206 success (now 12224 atoms)!
+Try 207 success (now 12225 atoms)!
+Try 208 success (now 12226 atoms)!
+Try 209 success (now 12227 atoms)!
+Try 210 success (now 12228 atoms)!
+Try 211 success (now 12229 atoms)!
+Try 212 success (now 12230 atoms)!
+Try 213 success (now 12231 atoms)!
+Try 214 success (now 12232 atoms)!
+Try 215 success (now 12233 atoms)!
+Try 216 success (now 12234 atoms)!
+Try 217 success (now 12235 atoms)!
+Try 218 success (now 12236 atoms)!
+Try 219 success (now 12237 atoms)!
+Try 220Try 221 success (now 12238 atoms)!
+Try 222 success (now 12239 atoms)!
+Try 223 success (now 12240 atoms)!
+Try 224 success (now 12241 atoms)!
+Try 225 success (now 12242 atoms)!
+Try 226 success (now 12243 atoms)!
+Try 227 success (now 12244 atoms)!
+Try 228 success (now 12245 atoms)!
+Try 229 success (now 12246 atoms)!
+Try 230 success (now 12247 atoms)!
+Try 231 success (now 12248 atoms)!
+Try 232 success (now 12249 atoms)!
+Try 233 success (now 12250 atoms)!
+Try 234 success (now 12251 atoms)!
+Try 235 success (now 12252 atoms)!
+Try 236 success (now 12253 atoms)!
+Try 237 success (now 12254 atoms)!
+Try 238 success (now 12255 atoms)!
+Try 239 success (now 12256 atoms)!
+Try 240 success (now 12257 atoms)!
+Try 241 success (now 12258 atoms)!
+Try 242 success (now 12259 atoms)!
+Try 243 success (now 12260 atoms)!
+Try 244 success (now 12261 atoms)!
+Try 245 success (now 12262 atoms)!
+Try 246 success (now 12263 atoms)!
+Try 247 success (now 12264 atoms)!
+Try 248Try 249 success (now 12265 atoms)!
+Try 250 success (now 12266 atoms)!
+Try 251 success (now 12267 atoms)!
+Try 252 success (now 12268 atoms)!
+Try 253 success (now 12269 atoms)!
+Try 254 success (now 12270 atoms)!
+Try 255 success (now 12271 atoms)!
+Try 256 success (now 12272 atoms)!
+Try 257Try 258 success (now 12273 atoms)!
+Try 259 success (now 12274 atoms)!
+Try 260Try 261Try 262Try 263 success (now 12275 atoms)!
+Try 264 success (now 12276 atoms)!
+Try 265 success (now 12277 atoms)!
+Try 266 success (now 12278 atoms)!
+Try 267 success (now 12279 atoms)!
+Try 268 success (now 12280 atoms)!
+Try 269 success (now 12281 atoms)!
+Try 270 success (now 12282 atoms)!
+Try 271 success (now 12283 atoms)!
+Try 272Try 273 success (now 12284 atoms)!
+Try 274 success (now 12285 atoms)!
+Try 275 success (now 12286 atoms)!
+Try 276 success (now 12287 atoms)!
+Try 277 success (now 12288 atoms)!
+Try 278 success (now 12289 atoms)!
+Try 279 success (now 12290 atoms)!
+Try 280 success (now 12291 atoms)!
+Try 281 success (now 12292 atoms)!
+Try 282 success (now 12293 atoms)!
+Try 283 success (now 12294 atoms)!
+Try 284 success (now 12295 atoms)!
+Try 285 success (now 12296 atoms)!
+Try 286 success (now 12297 atoms)!
+Try 287 success (now 12298 atoms)!
+Try 288 success (now 12299 atoms)!
+Try 289 success (now 12300 atoms)!
+Try 290 success (now 12301 atoms)!
+Try 291 success (now 12302 atoms)!
+Try 292 success (now 12303 atoms)!
+Try 293 success (now 12304 atoms)!
+Try 294 success (now 12305 atoms)!
+Try 295 success (now 12306 atoms)!
+Try 296 success (now 12307 atoms)!
+Try 297 success (now 12308 atoms)!
+Try 298 success (now 12309 atoms)!
+Try 299 success (now 12310 atoms)!
+Try 300 success (now 12311 atoms)!
+Try 301 success (now 12312 atoms)!
+Try 302 success (now 12313 atoms)!
+Try 303 success (now 12314 atoms)!
+Try 304 success (now 12315 atoms)!
+Try 305 success (now 12316 atoms)!
+Try 306 success (now 12317 atoms)!
+Try 307 success (now 12318 atoms)!
+Try 308 success (now 12319 atoms)!
+Try 309 success (now 12320 atoms)!
+Try 310 success (now 12321 atoms)!
+Try 311 success (now 12322 atoms)!
+Try 312 success (now 12323 atoms)!
+Try 313 success (now 12324 atoms)!
+Try 314 success (now 12325 atoms)!
+Try 315 success (now 12326 atoms)!
+Try 316 success (now 12327 atoms)!
+Try 317 success (now 12328 atoms)!
+Try 318 success (now 12329 atoms)!
+Try 319Try 320 success (now 12330 atoms)!
+Try 321Try 322 success (now 12331 atoms)!
+Try 323 success (now 12332 atoms)!
+Try 324 success (now 12333 atoms)!
+Try 325 success (now 12334 atoms)!
+Try 326 success (now 12335 atoms)!
+Try 327 success (now 12336 atoms)!
+Try 328 success (now 12337 atoms)!
+Try 329 success (now 12338 atoms)!
+Try 330 success (now 12339 atoms)!
+Try 331 success (now 12340 atoms)!
+Try 332 success (now 12341 atoms)!
+Try 333 success (now 12342 atoms)!
+Try 334 success (now 12343 atoms)!
+Try 335 success (now 12344 atoms)!
+Try 336 success (now 12345 atoms)!
+Try 337 success (now 12346 atoms)!
+Try 338 success (now 12347 atoms)!
+Try 339 success (now 12348 atoms)!
+Try 340 success (now 12349 atoms)!
+Try 341 success (now 12350 atoms)!
+Try 342 success (now 12351 atoms)!
+Try 343 success (now 12352 atoms)!
+Try 344 success (now 12353 atoms)!
+Try 345 success (now 12354 atoms)!
+Try 346 success (now 12355 atoms)!
+Try 347 success (now 12356 atoms)!
+Try 348Try 349 success (now 12357 atoms)!
+Try 350 success (now 12358 atoms)!
+Try 351 success (now 12359 atoms)!
+Try 352 success (now 12360 atoms)!
+Try 353 success (now 12361 atoms)!
+Try 354 success (now 12362 atoms)!
+Try 355 success (now 12363 atoms)!
+Try 356 success (now 12364 atoms)!
+Try 357 success (now 12365 atoms)!
+Try 358 success (now 12366 atoms)!
+Try 359 success (now 12367 atoms)!
+Try 360 success (now 12368 atoms)!
+Try 361 success (now 12369 atoms)!
+Try 362 success (now 12370 atoms)!
+Try 363 success (now 12371 atoms)!
+Try 364 success (now 12372 atoms)!
+Try 365 success (now 12373 atoms)!
+Try 366 success (now 12374 atoms)!
+Try 367 success (now 12375 atoms)!
+Try 368 success (now 12376 atoms)!
+Try 369 success (now 12377 atoms)!
+Try 370 success (now 12378 atoms)!
+Try 371 success (now 12379 atoms)!
+Try 372 success (now 12380 atoms)!
+Try 373 success (now 12381 atoms)!
+Try 374 success (now 12382 atoms)!
+Try 375 success (now 12383 atoms)!
+Try 376 success (now 12384 atoms)!
+Try 377 success (now 12385 atoms)!
+Try 378 success (now 12386 atoms)!
+Try 379 success (now 12387 atoms)!
+Try 380 success (now 12388 atoms)!
+Try 381 success (now 12389 atoms)!
+Try 382 success (now 12390 atoms)!
+Try 383 success (now 12391 atoms)!
+Try 384 success (now 12392 atoms)!
+Try 385 success (now 12393 atoms)!
+Try 386 success (now 12394 atoms)!
+Try 387 success (now 12395 atoms)!
+Try 388 success (now 12396 atoms)!
+Try 389 success (now 12397 atoms)!
+Try 390 success (now 12398 atoms)!
+Try 391 success (now 12399 atoms)!
+Try 392 success (now 12400 atoms)!
+Try 393 success (now 12401 atoms)!
+Try 394 success (now 12402 atoms)!
+Try 395 success (now 12403 atoms)!
+Try 396 success (now 12404 atoms)!
+Try 397Try 398 success (now 12405 atoms)!
+Try 399 success (now 12406 atoms)!
+Try 400 success (now 12407 atoms)!
+Try 401 success (now 12408 atoms)!
+Try 402 success (now 12409 atoms)!
+Try 403 success (now 12410 atoms)!
+
+Added 379 molecules (out of 379 requested)
+Writing generated configuration to hba_out.pdb
+
+Output configuration contains 12410 atoms in 1268 residues
+
+GROMACS reminds you: "Two guys can move very fast when they're motivated enough and unemployed" (Eric Betzig)
+
+                      :-) GROMACS - gmx solvate, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx solvate -cp hbd_out.pdb -maxsol 500 -o protein_des.pdb
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 9x9x9 boxes
+Solvent box contains 357609 atoms in 119203 residues
+Removed 31617 solvent atoms due to solvent-solvent overlap
+Removed 41061 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):   500 residues
+Generated solvent containing 1500 atoms in 500 residues
+Writing generated configuration to protein_des.pdb
+
+Output configuration contains 20870 atoms in 2638 residues
+Volume                 :     3354.32 (nm^3)
+Density                :     81.2905 (g/l)
+Number of solvent molecules:    500   
+
+
+GROMACS reminds you: "I was told I'd never make it to VP rank because I was too outspoken. Maybe so, but I think men will always find an excuse for keeping women in their 'place.' So, let's make that place the executive suite and start more of our own companies." (Jean Bartik, ENIAC developer)
+
+                      :-) GROMACS - gmx pdb2gmx, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx pdb2gmx -f protein_des.pdb -ff charmm36-jul2022 -water tip3p -o protein_des.gro
+
+Opening force field file ./charmm36-jul2022.ff/aminoacids.r2b
+Opening force field file ./charmm36-jul2022.ff/carb.r2b
+Opening force field file ./charmm36-jul2022.ff/cgenff.r2b
+Opening force field file ./charmm36-jul2022.ff/ethers.r2b
+Opening force field file ./charmm36-jul2022.ff/lipid.r2b
+Opening force field file ./charmm36-jul2022.ff/metals.r2b
+Opening force field file ./charmm36-jul2022.ff/na.r2b
+Opening force field file ./charmm36-jul2022.ff/silicates.r2b
+Opening force field file ./charmm36-jul2022.ff/solvent.r2b
+Chain identifier 'A' is used in two non-sequential blocks. They will be treated as separate chains unless you reorder your file.
+
+Chain identifier 'C' is used in two non-sequential blocks. They will be treated as separate chains unless you reorder your file.
+
+there were 7726 atoms with zero occupancy and 6511 atoms with          occupancy unequal to one (out of 20870 atoms). Check your pdb file.
+Opening force field file ./charmm36-jul2022.ff/atomtypes.atp
+Opening force field file ./charmm36-jul2022.ff/aminoacids.rtp
+Opening force field file ./charmm36-jul2022.ff/carb.rtp
+Opening force field file ./charmm36-jul2022.ff/cgenff.rtp
+Opening force field file ./charmm36-jul2022.ff/ethers.rtp
+Opening force field file ./charmm36-jul2022.ff/lipid.rtp
+Opening force field file ./charmm36-jul2022.ff/metals.rtp
+Opening force field file ./charmm36-jul2022.ff/na.rtp
+Opening force field file ./charmm36-jul2022.ff/silicates.rtp
+Opening force field file ./charmm36-jul2022.ff/solvent.rtp
+Opening force field file ./charmm36-jul2022.ff/aminoacids.hdb
+Opening force field file ./charmm36-jul2022.ff/carb.hdb
+Opening force field file ./charmm36-jul2022.ff/cgenff.hdb
+Opening force field file ./charmm36-jul2022.ff/ethers.hdb
+Opening force field file ./charmm36-jul2022.ff/lipid.hdb
+Opening force field file ./charmm36-jul2022.ff/metals.hdb
+Opening force field file ./charmm36-jul2022.ff/na.hdb
+Opening force field file ./charmm36-jul2022.ff/silicates.hdb
+Opening force field file ./charmm36-jul2022.ff/solvent.hdb
+Opening force field file ./charmm36-jul2022.ff/aminoacids.n.tdb
+Opening force field file ./charmm36-jul2022.ff/carb.n.tdb
+Opening force field file ./charmm36-jul2022.ff/cgenff.n.tdb
+Opening force field file ./charmm36-jul2022.ff/ethers.n.tdb
+Opening force field file ./charmm36-jul2022.ff/lipid.n.tdb
+Opening force field file ./charmm36-jul2022.ff/metals.n.tdb
+Opening force field file ./charmm36-jul2022.ff/na.n.tdb
+Opening force field file ./charmm36-jul2022.ff/silicates.n.tdb
+Opening force field file ./charmm36-jul2022.ff/solvent.n.tdb
+Opening force field file ./charmm36-jul2022.ff/aminoacids.c.tdb
+Opening force field file ./charmm36-jul2022.ff/carb.c.tdb
+Opening force field file ./charmm36-jul2022.ff/cgenff.c.tdb
+Opening force field file ./charmm36-jul2022.ff/ethers.c.tdb
+Opening force field file ./charmm36-jul2022.ff/lipid.c.tdb
+Opening force field file ./charmm36-jul2022.ff/metals.c.tdb
+Opening force field file ./charmm36-jul2022.ff/na.c.tdb
+Opening force field file ./charmm36-jul2022.ff/silicates.c.tdb
+Opening force field file ./charmm36-jul2022.ff/solvent.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 745 donors and 730 acceptors were found.
+There are 1163 hydrogen bonds
+Will use HISH for residue 46
+Will use HISE for residue 84
+Will use HISE for residue 107
+Will use HISE for residue 226
+Will use HISD for residue 274
+Will use HISE for residue 310
+Will use HISE for residue 370
+Will use HISE for residue 404
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                   HIS46   CYS60   HIS84   MET91  HIS107  CYS127  MET131
+                  NE2346   SG459  NE2644   SD699  NE2828   SG976  SD1009
+   CYS60   SG459   1.760
+   HIS84  NE2644   1.861   2.658
+   MET91   SD699   0.509   1.264   1.919
+  HIS107  NE2828   2.789   1.764   4.088   2.478
+  CYS127   SG976   1.672   0.484   2.859   1.202   1.727
+  MET131  SD1009   1.169   0.993   2.163   0.724   2.538   0.886
+  MET212  SD1648   1.610   1.712   2.926   1.529   1.589   1.728   2.026
+  HIS226 NE21760   3.092   3.776   3.946   3.292   3.304   3.829   3.955
+  HIS274 NE22130   1.727   2.295   3.452   1.817   1.993   2.078   2.309
+  MET276  SD2145   2.683   3.406   4.394   2.874   2.790   3.149   3.368
+  MET277  SD2153   2.481   2.960   4.299   2.574   2.366   2.638   2.941
+  MET287  SD2223   1.632   2.774   2.877   1.941   2.854   2.721   2.643
+  HIS310 NE22389   3.589   3.598   4.438   3.594   2.688   3.723   4.110
+  CYS328  SG2528   3.113   3.177   3.193   3.094   3.153   3.474   3.591
+  CYS331  SG2552   3.128   3.120   3.302   3.092   3.003   3.412   3.577
+  MET348  SD2693   3.169   3.455   3.232   3.221   3.441   3.721   3.776
+  HIS370 NE22887   4.115   4.396   4.245   4.195   4.074   4.640   4.768
+  MET401  SD3135   1.157   1.893   2.410   1.250   2.228   1.918   1.907
+  HIS404 NE23171   1.878   1.954   2.204   1.785   2.444   2.238   2.259
+  MET434  SD3407   2.433   3.786   3.446   2.838   3.806   3.712   3.548
+  MET451  SD3525   3.620   4.643   5.288   3.915   4.192   4.319   4.379
+                  MET212  HIS226  HIS274  MET276  MET277  MET287  HIS310
+                  SD1648 NE21760 NE22130  SD2145  SD2153  SD2223 NE22389
+  HIS226 NE21760   2.112
+  HIS274 NE22130   1.074   2.306
+  MET276  SD2145   2.095   2.401   1.133
+  MET277  SD2153   1.964   2.881   0.948   0.736
+  MET287  SD2223   1.340   1.574   1.250   1.756   2.016
+  HIS310 NE22389   2.130   1.382   2.638   2.918   3.183   2.438
+  CYS328  SG2528   2.194   1.995   3.102   3.800   3.962   2.476   1.765
+  CYS331  SG2552   2.111   1.959   3.027   3.720   3.871   2.472   1.607
+  MET348  SD2693   2.338   1.763   3.147   3.756   3.994   2.370   1.801
+  HIS370 NE22887   3.123   1.871   3.802   4.181   4.532   3.039   1.767
+  MET401  SD3135   0.672   2.050   1.222   2.198   2.167   0.924   2.433
+  HIS404 NE23171   1.289   2.315   2.274   3.237   3.210   1.852   2.332
+  MET434  SD3407   2.349   1.628   2.045   2.008   2.518   1.031   2.888
+  MET451  SD3525   3.492   3.472   2.468   1.485   1.852   2.816   4.242
+                  CYS328  CYS331  MET348  HIS370  MET401  HIS404  MET434
+                  SG2528  SG2552  SD2693 NE22887  SD3135 NE23171  SD3407
+  CYS331  SG2552   0.203
+  MET348  SD2693   0.446   0.584
+  HIS370 NE22887   1.310   1.338   1.053
+  MET401  SD3135   2.170   2.148   2.226   3.092
+  HIS404 NE23171   1.335   1.343   1.541   2.552   1.151
+  MET434  SD3407   3.038   3.064   2.794   3.226   1.940   2.718
+  MET451  SD3525   5.107   5.053   4.989   5.340   3.442   4.546   2.585
+                
+                
+Linking CYS-328 SG-2528 and CYS-331 SG-2552...
+Opening force field file ./charmm36-jul2022.ff/aminoacids.arn
+
+-------------------------------------------------------
+Program:     gmx pdb2gmx, version 2022
+Source file: src/gromacs/gmxpreprocess/pgutil.cpp (line 154)
+
+Fatal error:
+Residue 14 named ASN of a molecule in the input file was mapped
+to an entry in the topology database, but the atom CG used in
+that entry is not found in the input file. Perhaps your atom
+and/or residue naming needs to be fixed.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx grompp, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx grompp -f /raid6/homes/kierannp/projects/deep-protein/mdps/em.mdp -c protein_des.gro -p topol.top -o em.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'protein_des.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx mdrun, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx mdrun -v -deffnm em -nt 0
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2022
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx grompp, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx grompp -f /raid6/homes/kierannp/projects/deep-protein/mdps/nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'em.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -r
+    File 'em.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx mdrun, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx mdrun -v -deffnm nvt -nt 0
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2022
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx grompp, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx grompp -f /raid6/homes/kierannp/projects/deep-protein/mdps/npt_373.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'nvt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -r
+    File 'nvt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx mdrun, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx mdrun -v -deffnm npt -nt 0
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2022
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx grompp, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx grompp -f /raid6/homes/kierannp/projects/deep-protein/mdps/production_5ns.mdp -c npt.gro -p topol.top -o production.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'npt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                       :-) GROMACS - gmx mdrun, 2022 (-:
+
+Executable:   /raid6/software/gromacs-2022/bin/gmx
+Data prefix:  /raid6/software/gromacs-2022
+Working dir:  /raid6/homes/kierannp/projects/deep-protein/sandbox2/0.6964691855978616_0.28613933495037946
+Command line:
+  gmx mdrun -v -deffnm production -nt 0
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2022
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+Traceback (most recent call last):
+  File "run_system.py", line 43, in <module>
+    optimizer.maximize(
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 311, in maximize
+    self.probe(x_probe, lazy=False)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 208, in probe
+    self._space.probe(params)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/target_space.py", line 236, in probe
+    target = self.target_func(**params)
+  File "run_system.py", line 34, in run_simulation
+    return - simulation.analyze_trajectory()
+  File "/raid6/homes/kierannp/projects/deep-protein/dprotein/dprotein.py", line 173, in analyze_trajectory
+    raise Exception('The production run was unsuccessful, the .xtc file does not exist')
+Exception: The production run was unsuccessful, the .xtc file does not exist

@@ -1,3 +1,4 @@
+datasets/*
 *.trr
 *.xtc
 bash_scripts/*.txt

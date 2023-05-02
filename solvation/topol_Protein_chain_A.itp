@@ -2,7 +2,7 @@
 ;	File 'topol_Protein_chain_A.itp' was generated
 ;	By user: kierannp (1042)
 ;	On host: head.cl.vanderbilt.edu
-;	At date: Thu Mar  9 13:16:51 2023
+;	At date: Fri Apr 14 16:30:40 2023
 ;
 ;	This is a include topology file
 ;
@@ -11,7 +11,7 @@
 ;	
 ;	Executable:   /raid6/software/gromacs-2022/bin/gmx
 ;	Data prefix:  /raid6/software/gromacs-2022
-;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/working
+;	Working dir:  /raid6/homes/kierannp/projects/deep-protein/solvation
 ;	Command line:
 ;	  gmx pdb2gmx -f protein_des.pdb -o protein_des.gro
 ;	Force field was read from current directory or a relative path - path added.

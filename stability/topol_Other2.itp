@@ -2,7 +2,7 @@
 ;	File 'topol_Other2.itp' was generated
 ;	By user: kierannp (1042)
 ;	On host: head.cl.vanderbilt.edu
-;	At date: Mon Apr 10 16:01:19 2023
+;	At date: Wed Apr 12 14:12:29 2023
 ;
 ;	This is a include topology file
 ;
@@ -11,9 +11,9 @@
 ;	
 ;	Executable:   /raid6/software/gromacs-2022/bin/gmx
 ;	Data prefix:  /raid6/software/gromacs-2022
-;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/stability
+;	Working dir:  /raid6/homes/kierannp/projects/deep-protein/stability
 ;	Command line:
-;	  gmx pdb2gmx -f protein_des.pdb -o protein_des.gro
+;	  gmx pdb2gmx -f protein_des.pdb -ff charmm36 -water tip3p
 ;	Force field was read from current directory or a relative path - path added.
 ;
 

@@ -1,0 +1,6 @@
+/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+Traceback (most recent call last):
+  File "run_system.py", line 68, in <module>
+    optimizer.set_gp_params(gp.get_params())
+TypeError: set_gp_params() takes 1 positional argument but 2 were given

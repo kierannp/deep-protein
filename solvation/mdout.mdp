@@ -2,16 +2,16 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: kierannp (1042)
 ;	On host: head.cl.vanderbilt.edu
-;	At date: Thu Mar  9 14:27:40 2023
+;	At date: Fri Apr 14 15:56:48 2023
 ;
 ;	Created by:
 ;	                      :-) GROMACS - gmx grompp, 2022 (-:
 ;	
 ;	Executable:   /raid6/software/gromacs-2022/bin/gmx
 ;	Data prefix:  /raid6/software/gromacs-2022
-;	Working dir:  /raid6/homes/kierannp/projects/deep_protein/working
+;	Working dir:  /raid6/homes/kierannp/projects/deep-protein/solvation
 ;	Command line:
-;	  gmx grompp -f production.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+;	  gmx grompp -f production_tenth_ns.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -25,7 +25,7 @@ integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 500000
+nsteps                   = 50000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -139,7 +139,7 @@ print-nose-hoover-chain-variables = no
 tc-grps                  = Protein Non-Protein
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.1     0.1
-ref_t                    = 300     300
+ref_t                    = 373     373
 ; pressure coupling     
 pcoupl                   = Parrinello-Rahman
 pcoupltype               = isotropic
@@ -169,7 +169,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen-temp                 = 300
-gen-seed                 = 1691219439
+gen-seed                 = 1466858491
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds

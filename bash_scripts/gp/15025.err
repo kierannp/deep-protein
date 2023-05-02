@@ -1,0 +1,16 @@
+/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+Traceback (most recent call last):
+  File "run_system.py", line 70, in <module>
+    optimizer.maximize(
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 311, in maximize
+    self.probe(x_probe, lazy=False)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/bayesian_optimization.py", line 208, in probe
+    self._space.probe(params)
+  File "/raid6/homes/kierannp/.conda/envs/deep-protein/lib/python3.8/site-packages/bayes_opt/target_space.py", line 236, in probe
+    target = self.target_func(**params)
+  File "run_system.py", line 30, in run_simulation
+    simulation.build_system(
+  File "/raid6/homes/kierannp/projects/deep-protein/dprotein/dprotein.py", line 35, in build_system
+    os.mkdir(self.data_dir)
+FileNotFoundError: [Errno 2] No such file or directory: '/raid6/homes/kierannp/projects/deep-protein/sandbox/raid6/homes/kierannp_0.6964691855978616'

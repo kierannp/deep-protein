@@ -12,9 +12,10 @@
 #SBATCH --exclude=node7,node9,node10,node3
 #SBATCH --output=%J.txt
 
-SLURM_SUBMIT_DIR=/raid6/homes/kierannp/projects/deep_protein/solvation
+SLURM_SUBMIT_DIR=/raid6/homes/kierannp/projects/deep-protein/solvation
 cd $SLURM_SUBMIT_DIR
 
 module load gromacs
 
+gmx grompp -f production.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
 gmx mdrun -v -deffnm md_0_1 -nt 4

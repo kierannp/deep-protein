@@ -1,0 +1,143 @@
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 3988 atoms
+Volume: 1061.53 nm^3, corresponds to roughly 477600 electrons
+No velocities found
+    system size :  7.502  7.077  8.606 (nm)
+    diameter    : 10.969               (nm)
+    center      :  2.451  4.967 10.043 (nm)
+    box vectors :  5.548 10.343 18.501 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  :1061.53               (nm^3)
+    shift       :  5.033  2.518 -2.558 (nm)
+new center      :  7.485  7.485  7.485 (nm)
+new box vectors : 14.969 14.969 14.969 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  :3354.32               (nm^3)
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx insert-molecules uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx insert-molecules uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using the Charmm36-jul2022 force field in directory ./charmm36-jul2022.ff
+
+going to rename ./charmm36-jul2022.ff/aminoacids.r2b
+
+going to rename ./charmm36-jul2022.ff/carb.r2b
+
+going to rename ./charmm36-jul2022.ff/cgenff.r2b
+
+going to rename ./charmm36-jul2022.ff/ethers.r2b
+
+going to rename ./charmm36-jul2022.ff/lipid.r2b
+
+going to rename ./charmm36-jul2022.ff/metals.r2b
+
+going to rename ./charmm36-jul2022.ff/na.r2b
+
+going to rename ./charmm36-jul2022.ff/silicates.r2b
+
+going to rename ./charmm36-jul2022.ff/solvent.r2b
+Reading protein_des.pdb...
+Read 'CHITINASE B', 20870 atoms
+
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+
+Chain identifier 'A' is used in two non-sequential blocks. They will be treated as separate chains unless you reorder your file.
+
+Chain identifier 'C' is used in two non-sequential blocks. They will be treated as separate chains unless you reorder your file.
+
+There are 8 chains and 1 blocks of water and 2638 residues with 20870 atoms
+
+  chain  #res #atoms
+
+  1 'A'   496   3882  
+
+  2 'C'     2     28  
+
+  3 'D'     2     28  
+
+  4 'A'     3     25  
+
+  5 'B'     3     25  
+
+  6 ' '   383   8043  
+
+  7 'C'   379    379  
+
+  8 ' '   870   6960  
+
+  9 ' '   500   1500  (only water)
+
+there were 7726 atoms with zero occupancy and 6511 atoms with          occupancy unequal to one (out of 20870 atoms). Check your pdb file.
+
+Reading residue database... (Charmm36-jul2022)
+
+Processing chain 1 'A' (3882 atoms, 496 residues)
+
+Identified residue THR3 as a starting terminus.
+
+Identified residue VAL498 as a ending terminus.
+Start terminus THR-3: NH3+
+End terminus VAL-498: COO-
+
+Checking for duplicate atoms....
+
+Generating any missing hydrogen atoms and/or adding termini.
+|   iter    |  target   | donor_... | h2o_pe... |
+-------------------------------------------------
