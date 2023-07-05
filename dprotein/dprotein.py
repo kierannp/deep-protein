@@ -18,7 +18,7 @@ class Deep_Eutectic_Search:
         self.home = os.path.expanduser("~")
         self.working_dir = working_dir
 
-    def build_system(self, donor_percent, h2o_percent, seed):
+    def build_system(self, donor_percent, h2o_percent, buffer_size, seed):
         """
         A function that builds the atomistic system
 
@@ -63,7 +63,7 @@ class Deep_Eutectic_Search:
             n_hba_2 = self.n_hba
 
         #create system
-        subprocess.run('module load gromacs && gmx editconf -f {}.pdb -o {}_newbox.pdb -c -d 2.0 -bt cubic'.format(local_pdb_file, local_pdb_file), shell=True)
+        subprocess.run('module load gromacs && gmx editconf -f {}.pdb -o {}_newbox.pdb -c -d {} -bt cubic'.format(local_pdb_file, local_pdb_file, buffer_size), shell=True)
 
         if n_hba_1 != 0 and n_hba_2 != 0:
             subprocess.run('module load gromacs && gmx insert-molecules -seed {} -f {}_newbox.pdb -ci {} -nmol {} -try 1000 -o out.pdb'.format(seed, local_pdb_file, self.hba_file_1, n_hba_1), shell=True)
@@ -82,10 +82,13 @@ class Deep_Eutectic_Search:
                 subprocess.run('module load gromacs && gmx solvate -cp hba_out.pdb -maxsol {} -o protein_des.pdb'.format(self.n_h2o), shell=True)
             else:
                 subprocess.run('module load gromacs && gmx solvate -cp hbd_out.pdb -maxsol {} -o protein_des.pdb'.format(self.n_h2o), shell=True)
-        if self.n_h2o == 0 and self.n_hba == 0:
-            subprocess.run('mv hbd_out.pdb protein_des.pdb'.format(self.n_h2o), shell=True)
-        if self.n_h2o == 0 and self.n_hbd == 0:
-            subprocess.run('mv hba_out.pdb protein_des.pdb'.format(self.n_h2o), shell=True)
+        if self.n_h2o == 0:
+            if self.n_hbd == 0:
+                subprocess.run('mv hba_out.pdb protein_des.pdb'.format(self.n_h2o), shell=True)
+            else:
+                subprocess.run('mv hbd_out.pdb protein_des.pdb'.format(self.n_h2o), shell=True)
+            
+        
         # subprocess.run('rm out.pdb out2.pdb out3.pdb', shell=True)
         
     def apply_forcefield(self):
@@ -154,7 +157,7 @@ class Deep_Eutectic_Search:
         run_npt()
         run_production()
 
-    def analyze_trajectory(self, with_attribution=True):
+    def analyze_trajectory(self, descriptor = 'gyrate'):
         """
         A function to analyize the trajectory and figure out the radius of gyration and possibliy other descriptors
 
@@ -172,22 +175,26 @@ class Deep_Eutectic_Search:
             raise Exception('The production run was unsuccessful, the .xtc file does not exist')
 
         # subprocess.run('module load gromacs && gmx energy -s production.tpr -f production.xtc -o gyrate.xvg', shell=True)
-        subprocess.run('module load gromacs && echo echo "1 0 " | gmx gyrate -s production.tpr -f production.xtc -o gyrate.xvg', shell=True)
-        with open('gyrate.xvg') as f:
+        if descriptor == 'gyrate':
+            subprocess.run('module load gromacs && echo echo "1 0 " | gmx gyrate -s production.tpr -f production.xtc -o gyrate.xvg', shell=True)
+            fname = 'gyrate.xvg'
+        if descriptor == 'rmsd':
+            subprocess.run('module load gromacs && echo echo "1 0 " | gmx rms -s npt.gro -f production.xtc -o rmsd.xvg', shell=True)
+            fname = 'rmsd.xvg'
+        with open(fname) as f:
             lines = f.readlines()
             f.close()
         
-        gyrations = []
+        values = []
         start = 0
         for i, l in enumerate(lines):
             if "s3 legend" in l:
                 start = i
                 break
         for l in lines[start+1:]:
-            values = list(map(float, l.split()[1:]))
-            gyrations.append(values[1])
+            values.append(list(map(float, l.split()[1:]))[1])
         
-        return np.mean(np.array(gyrations))
+        return np.mean(np.array(values))
         # running = df['Rg'].rolling(100).mean()
 
 if __name__ == "__main__":

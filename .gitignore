@@ -1,3 +1,6 @@
+bash_scripts/gp/*.txt
+bash_scripts/gp/*.err
+sandbox
 datasets/*
 *.trr
 *.xtc

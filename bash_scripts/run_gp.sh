@@ -1,14 +1,14 @@
 #!/bin/bash
 #SBATCH --mail-user=kieran.d.nehil-puleo@vanderbilt.edu
 #SBATCH --mail-type=end
-#SBATCH --error=gp/%J.err
-#SBATCH --job-name=des_npt
+#SBATCH --error=gp/grid_%J.err
+#SBATCH --job-name=des_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --time=72:00:00
+#SBATCH --time=96:00:00
 #SBATCH --gres=gpu:1
 #SBATCH --partition=week-long-std
-#SBATCH --output=gp/%J.txt
+#SBATCH --output=gp/grid_%J.txt
 
 
 
@@ -19,4 +19,4 @@ module load gromacs
 module load anaconda/3.9
 conda activate deep-protein
 
-python run_system.py
+python run_grid.py

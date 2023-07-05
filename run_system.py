@@ -19,6 +19,7 @@ repo_path = '/raid6/homes/kierannp/projects/deep-protein/'
 
 # Bounded region of parameter space
 pbounds = {'donor_percent': (0, 1), 'h2o_percent': (0, 1)}
+molar_weights = {'chcl': 139.62, 'urea': 60.06, 'water':18.02} # g/mol
 gyration_data = {}
 
 simulation = Deep_Eutectic_Search(
